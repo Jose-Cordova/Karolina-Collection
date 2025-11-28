@@ -10,8 +10,8 @@ namespace Karolina_Collection_.CapaEntidades
     {
         public int id { get; set; }
         public string nombre_completo { get; set; }
-        public int dui { get; set; }
-        public int telefono { get; set; }
+        public string dui { get; set; }
+        public string telefono { get; set; }
         public string correo_electronico { get; set; }
     }
 }
