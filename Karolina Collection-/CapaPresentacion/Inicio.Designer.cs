@@ -35,6 +35,8 @@
             this.roundedPanel3 = new RoundedPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.roundedPanel2 = new RoundedPanel();
+            this.dividerLine7 = new DividerLine();
+            this.btnVolver = new BotonPremium();
             this.btnCierre_caja = new BotonPremium();
             this.dividerLine6 = new DividerLine();
             this.btnReportes = new BotonPremium();
@@ -47,8 +49,6 @@
             this.btnVenta_rapida = new BotonPremium();
             this.dividerLine4 = new DividerLine();
             this.dividerLine1 = new DividerLine();
-            this.btnVolver = new BotonPremium();
-            this.dividerLine7 = new DividerLine();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.roundedPanel1.SuspendLayout();
             this.roundedPanel3.SuspendLayout();
@@ -152,6 +152,36 @@
             this.roundedPanel2.Size = new System.Drawing.Size(306, 379);
             this.roundedPanel2.TabIndex = 0;
             this.roundedPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.roundedPanel2_Paint);
+            // 
+            // dividerLine7
+            // 
+            this.dividerLine7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(20)))), ((int)(((byte)(24)))));
+            this.dividerLine7.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(30)))), ((int)(((byte)(38)))));
+            this.dividerLine7.LineThickness = 1;
+            this.dividerLine7.Location = new System.Drawing.Point(5, 318);
+            this.dividerLine7.Name = "dividerLine7";
+            this.dividerLine7.Size = new System.Drawing.Size(297, 10);
+            this.dividerLine7.TabIndex = 10;
+            this.dividerLine7.Text = "dividerLine7";
+            // 
+            // btnVolver
+            // 
+            this.btnVolver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.btnVolver.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnVolver.FlatAppearance.BorderSize = 0;
+            this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVolver.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.ForeColor = System.Drawing.Color.Transparent;
+            this.btnVolver.Image = global::Karolina_Collection_.Properties.Resources.icons8_logout_16;
+            this.btnVolver.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnVolver.Location = new System.Drawing.Point(61, 331);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnVolver.Size = new System.Drawing.Size(133, 35);
+            this.btnVolver.TabIndex = 11;
+            this.btnVolver.Text = "Salir";
+            this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
             // 
             // btnCierre_caja
             // 
@@ -331,36 +361,6 @@
             this.dividerLine1.Size = new System.Drawing.Size(1202, 25);
             this.dividerLine1.TabIndex = 5;
             this.dividerLine1.Text = "dividerLine1";
-            // 
-            // btnVolver
-            // 
-            this.btnVolver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.btnVolver.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnVolver.FlatAppearance.BorderSize = 0;
-            this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnVolver.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVolver.ForeColor = System.Drawing.Color.Transparent;
-            this.btnVolver.Image = global::Karolina_Collection_.Properties.Resources.icons8_logout_16;
-            this.btnVolver.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVolver.Location = new System.Drawing.Point(61, 331);
-            this.btnVolver.Name = "btnVolver";
-            this.btnVolver.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnVolver.Size = new System.Drawing.Size(133, 35);
-            this.btnVolver.TabIndex = 11;
-            this.btnVolver.Text = "Volver";
-            this.btnVolver.UseVisualStyleBackColor = false;
-            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
-            // 
-            // dividerLine7
-            // 
-            this.dividerLine7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(20)))), ((int)(((byte)(24)))));
-            this.dividerLine7.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(30)))), ((int)(((byte)(38)))));
-            this.dividerLine7.LineThickness = 1;
-            this.dividerLine7.Location = new System.Drawing.Point(5, 318);
-            this.dividerLine7.Name = "dividerLine7";
-            this.dividerLine7.Size = new System.Drawing.Size(297, 10);
-            this.dividerLine7.TabIndex = 10;
-            this.dividerLine7.Text = "dividerLine7";
             // 
             // Inicio
             // 

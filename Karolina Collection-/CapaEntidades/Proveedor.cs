@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Karolina_Collection_.CapaEntidades
 {
-    public class Usuario
+    public class Proveedor
     {
         public int id { get; set; }
-        public string nombre_usuario { get; set; }
-        public string contrasenia { get; set; }
+        public string nombre_proveedor { get; set; }
     }
 }
