@@ -1,0 +1,38 @@
+C:\Users\fjami\source\repos\Karolina Collection-\Karolina Collection-\bin\Debug\Karolina Collection-.exe.config
+C:\Users\fjami\source\repos\Karolina Collection-\Karolina Collection-\bin\Debug\Karolina Collection-.exe
+C:\Users\fjami\source\repos\Karolina Collection-\Karolina Collection-\bin\Debug\Karolina Collection-.pdb
+C:\Users\fjami\source\repos\Karolina Collection-\Karolina Collection-\obj\Debug\Karolina Collection-.csproj.AssemblyReference.cache
+C:\Users\fjami\source\repos\Karolina Collection-\Karolina Collection-\obj\Debug\Karolina_Collection_.Inicio.resources
+C:\Users\fjami\source\repos\Karolina Collection-\Karolina Collection-\obj\Debug\Karolina_Collection_.Properties.Resources.resources
+C:\Users\fjami\source\repos\Karolina Collection-\Karolina Collection-\obj\Debug\Karolina Collection-.csproj.GenerateResource.cache
+C:\Users\fjami\source\repos\Karolina Collection-\Karolina Collection-\obj\Debug\Karolina Collection-.csproj.CoreCompileInputs.cache
+C:\Users\fjami\source\repos\Karolina Collection-\Karolina Collection-\obj\Debug\Karolina Collection-.exe
+C:\Users\fjami\source\repos\Karolina Collection-\Karolina Collection-\obj\Debug\Karolina Collection-.pdb
+C:\Users\fjami\source\repos\Karolina Collection-\Karolina Collection-\obj\Debug\Karolina_Collection_.CapaPresentacion.frmR_Producto.resources
+C:\Users\fjami\source\repos\Karolina Collection-\Karolina Collection-\obj\Debug\Karolina_Collection_.CapaPresentacion.frmVenta.resources
+C:\Users\jose6\Downloads\Archivos\Karolina Collection-\Karolina Collection-\obj\Debug\Karolina Collection-.csproj.AssemblyReference.cache
+C:\Users\jose6\Downloads\Archivos\Karolina Collection-\Karolina Collection-\obj\Debug\Karolina Collection-.exe.config
+C:\Users\jose6\Downloads\Archivos\Karolina Collection-\Karolina Collection-\obj\Debug\Karolina_Collection_.CapaPresentacion.frmR_Producto.resources
+C:\Users\jose6\Downloads\Archivos\Karolina Collection-\Karolina Collection-\obj\Debug\Karolina_Collection_.CapaPresentacion.frmVenta.resources
+C:\Users\jose6\Downloads\Archivos\Karolina Collection-\Karolina Collection-\obj\Debug\Karolina_Collection_.Inicio.resources
+C:\Users\jose6\Downloads\Archivos\Karolina Collection-\Karolina Collection-\obj\Debug\Karolina_Collection_.Properties.Resources.resources
+C:\Users\jose6\Downloads\Archivos\Karolina Collection-\Karolina Collection-\obj\Debug\Karolina Collection-.csproj.GenerateResource.cache
+C:\Users\jose6\Downloads\Archivos\Karolina Collection-\Karolina Collection-\obj\Debug\Karolina Collection-.csproj.CoreCompileInputs.cache
+C:\Users\jose6\Downloads\Archivos\Karolina Collection-\Karolina Collection-\obj\Debug\Karolina Collection-.exe
+C:\Users\jose6\Downloads\Archivos\Karolina Collection-\Karolina Collection-\obj\Debug\Karolina Collection-.pdb
+C:\Users\jose6\Downloads\Archivos\Karolina Collection-\Karolina Collection-\bin\Debug\Karolina Collection-.exe.config
+C:\Users\jose6\Downloads\Archivos\Karolina Collection-\Karolina Collection-\bin\Debug\Karolina Collection-.exe
+C:\Users\jose6\Downloads\Archivos\Karolina Collection-\Karolina Collection-\bin\Debug\Karolina Collection-.pdb
+C:\Users\jose6\Documents\Karolina Collection\Karolina Collection-\bin\Debug\Karolina Collection-.exe.config
+C:\Users\jose6\Documents\Karolina Collection\Karolina Collection-\bin\Debug\Karolina Collection-.exe
+C:\Users\jose6\Documents\Karolina Collection\Karolina Collection-\bin\Debug\Karolina Collection-.pdb
+C:\Users\jose6\Documents\Karolina Collection\Karolina Collection-\obj\Debug\Karolina Collection-.csproj.AssemblyReference.cache
+C:\Users\jose6\Documents\Karolina Collection\Karolina Collection-\obj\Debug\Karolina Collection-.exe.config
+C:\Users\jose6\Documents\Karolina Collection\Karolina Collection-\obj\Debug\Karolina_Collection_.CapaPresentacion.frmVenta.resources
+C:\Users\jose6\Documents\Karolina Collection\Karolina Collection-\obj\Debug\Karolina_Collection_.Inicio.resources
+C:\Users\jose6\Documents\Karolina Collection\Karolina Collection-\obj\Debug\Karolina_Collection_.Properties.Resources.resources
+C:\Users\jose6\Documents\Karolina Collection\Karolina Collection-\obj\Debug\Karolina Collection-.csproj.GenerateResource.cache
+C:\Users\jose6\Documents\Karolina Collection\Karolina Collection-\obj\Debug\Karolina Collection-.csproj.CoreCompileInputs.cache
+C:\Users\jose6\Documents\Karolina Collection\Karolina Collection-\obj\Debug\Karolina Collection-.exe
+C:\Users\jose6\Documents\Karolina Collection\Karolina Collection-\obj\Debug\Karolina Collection-.pdb
+C:\Users\jose6\Documents\Karolina Collection\Karolina Collection-\obj\Debug\Karolina_Collection_.CapaPresentacion.frmProducto.resources
