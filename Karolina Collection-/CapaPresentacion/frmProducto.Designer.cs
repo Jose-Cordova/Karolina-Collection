@@ -32,6 +32,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.Karolins = new System.Windows.Forms.Label();
             this.roundedPanel1 = new RoundedPanel();
+            this.roundedPanel8 = new RoundedPanel();
+            this.btnVolver_menu = new BotonPremium();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.roundedPanel6 = new RoundedPanel();
@@ -63,6 +65,7 @@
             this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.roundedPanel1.SuspendLayout();
+            this.roundedPanel8.SuspendLayout();
             this.roundedPanel6.SuspendLayout();
             this.roundedPanel4.SuspendLayout();
             this.roundedPanel7.SuspendLayout();
@@ -77,7 +80,7 @@
             // 
             this.pictureBox2.Image = global::Karolina_Collection_.Properties.Resources.icons8_corona_48;
             this.pictureBox2.Location = new System.Drawing.Point(16, 9);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(73, 63);
             this.pictureBox2.TabIndex = 12;
@@ -113,6 +116,7 @@
             this.roundedPanel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
             this.roundedPanel1.BorderRadius = 25;
             this.roundedPanel1.BorderSize = 1;
+            this.roundedPanel1.Controls.Add(this.roundedPanel8);
             this.roundedPanel1.Controls.Add(this.label10);
             this.roundedPanel1.Controls.Add(this.label9);
             this.roundedPanel1.Controls.Add(this.roundedPanel6);
@@ -120,11 +124,43 @@
             this.roundedPanel1.Controls.Add(this.roundedPanel3);
             this.roundedPanel1.Controls.Add(this.roundedPanel2);
             this.roundedPanel1.Location = new System.Drawing.Point(43, 79);
-            this.roundedPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.roundedPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.roundedPanel1.Name = "roundedPanel1";
             this.roundedPanel1.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
             this.roundedPanel1.Size = new System.Drawing.Size(1643, 677);
             this.roundedPanel1.TabIndex = 13;
+            // 
+            // roundedPanel8
+            // 
+            this.roundedPanel8.BackColor = System.Drawing.Color.Transparent;
+            this.roundedPanel8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.roundedPanel8.BorderRadius = 25;
+            this.roundedPanel8.BorderSize = 1;
+            this.roundedPanel8.Controls.Add(this.btnVolver_menu);
+            this.roundedPanel8.Location = new System.Drawing.Point(1357, 561);
+            this.roundedPanel8.Margin = new System.Windows.Forms.Padding(4);
+            this.roundedPanel8.Name = "roundedPanel8";
+            this.roundedPanel8.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.roundedPanel8.Size = new System.Drawing.Size(247, 59);
+            this.roundedPanel8.TabIndex = 16;
+            // 
+            // btnVolver_menu
+            // 
+            this.btnVolver_menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.btnVolver_menu.FlatAppearance.BorderSize = 0;
+            this.btnVolver_menu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVolver_menu.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver_menu.ForeColor = System.Drawing.Color.Transparent;
+            this.btnVolver_menu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnVolver_menu.Location = new System.Drawing.Point(50, 6);
+            this.btnVolver_menu.Margin = new System.Windows.Forms.Padding(4);
+            this.btnVolver_menu.Name = "btnVolver_menu";
+            this.btnVolver_menu.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnVolver_menu.Size = new System.Drawing.Size(159, 47);
+            this.btnVolver_menu.TabIndex = 7;
+            this.btnVolver_menu.Text = "Volver";
+            this.btnVolver_menu.UseVisualStyleBackColor = false;
+            this.btnVolver_menu.Click += new System.EventHandler(this.btnVolver_menu_Click);
             // 
             // label10
             // 
@@ -160,7 +196,7 @@
             this.roundedPanel6.Controls.Add(this.botonPremium2);
             this.roundedPanel6.Controls.Add(this.dividerLine1);
             this.roundedPanel6.Location = new System.Drawing.Point(1353, 366);
-            this.roundedPanel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.roundedPanel6.Margin = new System.Windows.Forms.Padding(4);
             this.roundedPanel6.Name = "roundedPanel6";
             this.roundedPanel6.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
             this.roundedPanel6.Size = new System.Drawing.Size(247, 174);
@@ -175,7 +211,7 @@
             this.botonPremium3.ForeColor = System.Drawing.Color.Transparent;
             this.botonPremium3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.botonPremium3.Location = new System.Drawing.Point(21, 102);
-            this.botonPremium3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.botonPremium3.Margin = new System.Windows.Forms.Padding(4);
             this.botonPremium3.Name = "botonPremium3";
             this.botonPremium3.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.botonPremium3.Size = new System.Drawing.Size(204, 68);
@@ -192,7 +228,7 @@
             this.botonPremium2.ForeColor = System.Drawing.Color.Transparent;
             this.botonPremium2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.botonPremium2.Location = new System.Drawing.Point(4, 21);
-            this.botonPremium2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.botonPremium2.Margin = new System.Windows.Forms.Padding(4);
             this.botonPremium2.Name = "botonPremium2";
             this.botonPremium2.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.botonPremium2.Size = new System.Drawing.Size(221, 48);
@@ -206,7 +242,7 @@
             this.dividerLine1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(30)))), ((int)(((byte)(38)))));
             this.dividerLine1.LineThickness = 1;
             this.dividerLine1.Location = new System.Drawing.Point(4, 75);
-            this.dividerLine1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dividerLine1.Margin = new System.Windows.Forms.Padding(4);
             this.dividerLine1.Name = "dividerLine1";
             this.dividerLine1.Size = new System.Drawing.Size(239, 20);
             this.dividerLine1.TabIndex = 5;
@@ -222,7 +258,7 @@
             this.roundedPanel4.Controls.Add(this.roundedPanel5);
             this.roundedPanel4.Controls.Add(this.dataGridView1);
             this.roundedPanel4.Location = new System.Drawing.Point(63, 309);
-            this.roundedPanel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.roundedPanel4.Margin = new System.Windows.Forms.Padding(4);
             this.roundedPanel4.Name = "roundedPanel4";
             this.roundedPanel4.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
             this.roundedPanel4.Size = new System.Drawing.Size(1255, 320);
@@ -236,7 +272,7 @@
             this.roundedPanel7.BorderSize = 1;
             this.roundedPanel7.Controls.Add(this.botonPremium1);
             this.roundedPanel7.Location = new System.Drawing.Point(241, 241);
-            this.roundedPanel7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.roundedPanel7.Margin = new System.Windows.Forms.Padding(4);
             this.roundedPanel7.Name = "roundedPanel7";
             this.roundedPanel7.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
             this.roundedPanel7.Size = new System.Drawing.Size(167, 64);
@@ -251,7 +287,7 @@
             this.botonPremium1.ForeColor = System.Drawing.Color.Transparent;
             this.botonPremium1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.botonPremium1.Location = new System.Drawing.Point(19, 4);
-            this.botonPremium1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.botonPremium1.Margin = new System.Windows.Forms.Padding(4);
             this.botonPremium1.Name = "botonPremium1";
             this.botonPremium1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.botonPremium1.Size = new System.Drawing.Size(135, 57);
@@ -268,7 +304,7 @@
             this.roundedPanel5.BorderSize = 1;
             this.roundedPanel5.Controls.Add(this.btnRegistrarVentaRapida);
             this.roundedPanel5.Location = new System.Drawing.Point(71, 241);
-            this.roundedPanel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.roundedPanel5.Margin = new System.Windows.Forms.Padding(4);
             this.roundedPanel5.Name = "roundedPanel5";
             this.roundedPanel5.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
             this.roundedPanel5.Size = new System.Drawing.Size(163, 64);
@@ -283,7 +319,7 @@
             this.btnRegistrarVentaRapida.ForeColor = System.Drawing.Color.Transparent;
             this.btnRegistrarVentaRapida.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnRegistrarVentaRapida.Location = new System.Drawing.Point(25, 11);
-            this.btnRegistrarVentaRapida.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRegistrarVentaRapida.Margin = new System.Windows.Forms.Padding(4);
             this.btnRegistrarVentaRapida.Name = "btnRegistrarVentaRapida";
             this.btnRegistrarVentaRapida.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnRegistrarVentaRapida.Size = new System.Drawing.Size(115, 49);
@@ -298,7 +334,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.GridColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dataGridView1.Location = new System.Drawing.Point(71, 28);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(1141, 202);
@@ -321,7 +357,7 @@
             this.roundedPanel3.Controls.Add(this.comboBox1);
             this.roundedPanel3.Controls.Add(this.label4);
             this.roundedPanel3.Location = new System.Drawing.Point(605, 66);
-            this.roundedPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.roundedPanel3.Margin = new System.Windows.Forms.Padding(4);
             this.roundedPanel3.Name = "roundedPanel3";
             this.roundedPanel3.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
             this.roundedPanel3.Size = new System.Drawing.Size(995, 162);
@@ -346,7 +382,7 @@
             this.comboBox4.ForeColor = System.Drawing.SystemColors.Window;
             this.comboBox4.FormattingEnabled = true;
             this.comboBox4.Location = new System.Drawing.Point(621, 71);
-            this.comboBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox4.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(307, 28);
             this.comboBox4.TabIndex = 12;
@@ -358,7 +394,7 @@
             this.comboBox3.ForeColor = System.Drawing.SystemColors.Window;
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Location = new System.Drawing.Point(621, 22);
-            this.comboBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox3.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(307, 28);
             this.comboBox3.TabIndex = 11;
@@ -381,7 +417,7 @@
             this.numericUpDown1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numericUpDown1.ForeColor = System.Drawing.SystemColors.Window;
             this.numericUpDown1.Location = new System.Drawing.Point(153, 118);
-            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(100, 27);
             this.numericUpDown1.TabIndex = 9;
@@ -405,7 +441,7 @@
             this.comboBox2.ForeColor = System.Drawing.SystemColors.Window;
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Location = new System.Drawing.Point(124, 73);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(307, 28);
             this.comboBox2.TabIndex = 7;
@@ -429,7 +465,7 @@
             this.comboBox1.ForeColor = System.Drawing.SystemColors.Window;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(124, 22);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(307, 28);
             this.comboBox1.TabIndex = 5;
@@ -459,7 +495,7 @@
             this.roundedPanel2.Controls.Add(this.label2);
             this.roundedPanel2.Controls.Add(this.label3);
             this.roundedPanel2.Location = new System.Drawing.Point(48, 66);
-            this.roundedPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.roundedPanel2.Margin = new System.Windows.Forms.Padding(4);
             this.roundedPanel2.Name = "roundedPanel2";
             this.roundedPanel2.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
             this.roundedPanel2.Size = new System.Drawing.Size(472, 162);
@@ -472,7 +508,7 @@
             this.textBox2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox2.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox2.Location = new System.Drawing.Point(124, 18);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(277, 27);
@@ -484,7 +520,7 @@
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.SystemColors.Info;
             this.textBox1.Location = new System.Drawing.Point(124, 84);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(277, 69);
@@ -496,7 +532,7 @@
             this.dividerLine2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(30)))), ((int)(((byte)(38)))));
             this.dividerLine2.LineThickness = 1;
             this.dividerLine2.Location = new System.Drawing.Point(8, 64);
-            this.dividerLine2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dividerLine2.Margin = new System.Windows.Forms.Padding(4);
             this.dividerLine2.Name = "dividerLine2";
             this.dividerLine2.Size = new System.Drawing.Size(460, 12);
             this.dividerLine2.TabIndex = 2;
@@ -537,13 +573,14 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Karolins);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "frmProducto";
             this.Text = "frmR_Producto";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.roundedPanel1.ResumeLayout(false);
             this.roundedPanel1.PerformLayout();
+            this.roundedPanel8.ResumeLayout(false);
             this.roundedPanel6.ResumeLayout(false);
             this.roundedPanel4.ResumeLayout(false);
             this.roundedPanel7.ResumeLayout(false);
@@ -594,5 +631,7 @@
         private BotonPremium botonPremium2;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
+        private RoundedPanel roundedPanel8;
+        private BotonPremium btnVolver_menu;
     }
 }

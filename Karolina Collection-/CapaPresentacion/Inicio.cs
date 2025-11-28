@@ -65,7 +65,10 @@ namespace Karolina_Collection_
 
         private void botonPremium1_Click(object sender, EventArgs e)
         {
-
+            // Crear una instancia del formulario frmVenta
+            frmVenta frm = new frmVenta();
+            // Muestra el formulario
+            frm.ShowDialog();
         }
 
         private void roundedPanel1_Paint(object sender, PaintEventArgs e)
@@ -109,6 +112,16 @@ namespace Karolina_Collection_
         private void botonPremium6_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnVolver_Click(object sender, EventArgs e)
+        {
+            //Advertencia antes de cerrar el formulario
+            if (MessageBox.Show("¿Está seguro de cerrar el programa?", "Confirmar",
+            MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Close(); //Cerrar el formulario
+            }
         }
     }
 }

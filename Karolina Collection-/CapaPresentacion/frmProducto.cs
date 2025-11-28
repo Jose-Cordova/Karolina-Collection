@@ -36,5 +36,10 @@ namespace Karolina_Collection_.CapaPresentacion
         {
 
         }
+
+        private void btnVolver_menu_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

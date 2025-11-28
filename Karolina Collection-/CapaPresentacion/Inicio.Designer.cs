@@ -47,6 +47,8 @@
             this.btnVenta_rapida = new BotonPremium();
             this.dividerLine4 = new DividerLine();
             this.dividerLine1 = new DividerLine();
+            this.btnVolver = new BotonPremium();
+            this.dividerLine7 = new DividerLine();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.roundedPanel1.SuspendLayout();
             this.roundedPanel3.SuspendLayout();
@@ -99,7 +101,7 @@
             this.roundedPanel1.Location = new System.Drawing.Point(38, 65);
             this.roundedPanel1.Name = "roundedPanel1";
             this.roundedPanel1.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.roundedPanel1.Size = new System.Drawing.Size(1208, 458);
+            this.roundedPanel1.Size = new System.Drawing.Size(1208, 527);
             this.roundedPanel1.TabIndex = 4;
             this.roundedPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.roundedPanel1_Paint);
             // 
@@ -131,6 +133,8 @@
             this.roundedPanel2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
             this.roundedPanel2.BorderRadius = 25;
             this.roundedPanel2.BorderSize = 1;
+            this.roundedPanel2.Controls.Add(this.dividerLine7);
+            this.roundedPanel2.Controls.Add(this.btnVolver);
             this.roundedPanel2.Controls.Add(this.btnCierre_caja);
             this.roundedPanel2.Controls.Add(this.dividerLine6);
             this.roundedPanel2.Controls.Add(this.btnReportes);
@@ -145,7 +149,7 @@
             this.roundedPanel2.Location = new System.Drawing.Point(45, 105);
             this.roundedPanel2.Name = "roundedPanel2";
             this.roundedPanel2.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.roundedPanel2.Size = new System.Drawing.Size(306, 315);
+            this.roundedPanel2.Size = new System.Drawing.Size(306, 379);
             this.roundedPanel2.TabIndex = 0;
             this.roundedPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.roundedPanel2_Paint);
             // 
@@ -162,7 +166,7 @@
             this.btnCierre_caja.Location = new System.Drawing.Point(61, 277);
             this.btnCierre_caja.Name = "btnCierre_caja";
             this.btnCierre_caja.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnCierre_caja.Size = new System.Drawing.Size(133, 22);
+            this.btnCierre_caja.Size = new System.Drawing.Size(133, 35);
             this.btnCierre_caja.TabIndex = 10;
             this.btnCierre_caja.Text = "Cerra Caja";
             this.btnCierre_caja.UseVisualStyleBackColor = false;
@@ -328,12 +332,42 @@
             this.dividerLine1.TabIndex = 5;
             this.dividerLine1.Text = "dividerLine1";
             // 
+            // btnVolver
+            // 
+            this.btnVolver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.btnVolver.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnVolver.FlatAppearance.BorderSize = 0;
+            this.btnVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVolver.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.ForeColor = System.Drawing.Color.Transparent;
+            this.btnVolver.Image = global::Karolina_Collection_.Properties.Resources.icons8_logout_16;
+            this.btnVolver.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnVolver.Location = new System.Drawing.Point(61, 331);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnVolver.Size = new System.Drawing.Size(133, 35);
+            this.btnVolver.TabIndex = 11;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = false;
+            this.btnVolver.Click += new System.EventHandler(this.btnVolver_Click);
+            // 
+            // dividerLine7
+            // 
+            this.dividerLine7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(20)))), ((int)(((byte)(24)))));
+            this.dividerLine7.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(30)))), ((int)(((byte)(38)))));
+            this.dividerLine7.LineThickness = 1;
+            this.dividerLine7.Location = new System.Drawing.Point(5, 318);
+            this.dividerLine7.Name = "dividerLine7";
+            this.dividerLine7.Size = new System.Drawing.Size(297, 10);
+            this.dividerLine7.TabIndex = 10;
+            this.dividerLine7.Text = "dividerLine7";
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
-            this.ClientSize = new System.Drawing.Size(1295, 557);
+            this.ClientSize = new System.Drawing.Size(1295, 654);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.roundedPanel1);
@@ -376,6 +410,8 @@
         private RoundedPanel roundedPanel3;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private DividerLine dividerLine7;
+        private BotonPremium btnVolver;
     }
 }
 

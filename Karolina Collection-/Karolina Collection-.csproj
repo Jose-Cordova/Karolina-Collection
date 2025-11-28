@@ -49,6 +49,12 @@
     <Compile Include="BotonPremium.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="CapaEntidades\Cliente.cs" />
+    <Compile Include="CapaEntidades\Color.cs" />
+    <Compile Include="CapaEntidades\Metodo_pago.cs" />
+    <Compile Include="CapaEntidades\Sub_categoria.cs" />
+    <Compile Include="CapaEntidades\Talla.cs" />
+    <Compile Include="CapaEntidades\Usuario.cs" />
     <Compile Include="CapaPresentacion\frmProducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,7 +115,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CapaDatos\" />
-    <Folder Include="CapaEntidades\" />
     <Folder Include="CapaNegocio\" />
   </ItemGroup>
   <ItemGroup>
