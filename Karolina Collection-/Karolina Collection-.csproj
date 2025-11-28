@@ -51,6 +51,7 @@
     </Compile>
     <Compile Include="CapaEntidades\Cliente.cs" />
     <Compile Include="CapaEntidades\Color.cs" />
+    <Compile Include="CapaEntidades\Detalle_venta.cs" />
     <Compile Include="CapaEntidades\Metodo_pago.cs" />
     <Compile Include="CapaEntidades\Sub_categoria.cs" />
     <Compile Include="CapaEntidades\Talla.cs" />
