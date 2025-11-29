@@ -31,6 +31,18 @@
             this.label1 = new System.Windows.Forms.Label();
             this.Karolins = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.roundedPanel3 = new RoundedPanel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.roundedPanel4 = new RoundedPanel();
+            this.dividerLine1 = new DividerLine();
+            this.roundedPanel6 = new RoundedPanel();
+            this.botonPremium1 = new BotonPremium();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.roundedPanel1 = new RoundedPanel();
             this.label9 = new System.Windows.Forms.Label();
             this.roundedPanel2 = new RoundedPanel();
@@ -44,6 +56,10 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.roundedPanel3.SuspendLayout();
+            this.roundedPanel4.SuspendLayout();
+            this.roundedPanel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.roundedPanel1.SuspendLayout();
             this.roundedPanel2.SuspendLayout();
             this.roundedPanel5.SuspendLayout();
@@ -82,6 +98,158 @@
             this.pictureBox2.TabIndex = 15;
             this.pictureBox2.TabStop = false;
             // 
+            // roundedPanel3
+            // 
+            this.roundedPanel3.BackColor = System.Drawing.Color.Transparent;
+            this.roundedPanel3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.roundedPanel3.BorderRadius = 25;
+            this.roundedPanel3.BorderSize = 1;
+            this.roundedPanel3.Controls.Add(this.label5);
+            this.roundedPanel3.Controls.Add(this.roundedPanel4);
+            this.roundedPanel3.Location = new System.Drawing.Point(61, 612);
+            this.roundedPanel3.Name = "roundedPanel3";
+            this.roundedPanel3.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.roundedPanel3.Size = new System.Drawing.Size(1061, 365);
+            this.roundedPanel3.TabIndex = 17;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Cascadia Code ExtraLight", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)), true);
+            this.label5.ForeColor = System.Drawing.Color.Yellow;
+            this.label5.Location = new System.Drawing.Point(411, 13);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(278, 18);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "2. AGREGAR PRODUCTO A LA VENTA\r\n";
+            // 
+            // roundedPanel4
+            // 
+            this.roundedPanel4.BackColor = System.Drawing.Color.Transparent;
+            this.roundedPanel4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.roundedPanel4.BorderRadius = 25;
+            this.roundedPanel4.BorderSize = 1;
+            this.roundedPanel4.Controls.Add(this.dividerLine1);
+            this.roundedPanel4.Controls.Add(this.roundedPanel6);
+            this.roundedPanel4.Controls.Add(this.textBox3);
+            this.roundedPanel4.Controls.Add(this.label6);
+            this.roundedPanel4.Controls.Add(this.dataGridView2);
+            this.roundedPanel4.Controls.Add(this.label7);
+            this.roundedPanel4.Controls.Add(this.textBox4);
+            this.roundedPanel4.Controls.Add(this.label8);
+            this.roundedPanel4.Location = new System.Drawing.Point(42, 45);
+            this.roundedPanel4.Name = "roundedPanel4";
+            this.roundedPanel4.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.roundedPanel4.Size = new System.Drawing.Size(983, 261);
+            this.roundedPanel4.TabIndex = 1;
+            // 
+            // dividerLine1
+            // 
+            this.dividerLine1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(20)))), ((int)(((byte)(24)))));
+            this.dividerLine1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(30)))), ((int)(((byte)(38)))));
+            this.dividerLine1.LineThickness = 1;
+            this.dividerLine1.Location = new System.Drawing.Point(6, 59);
+            this.dividerLine1.Name = "dividerLine1";
+            this.dividerLine1.Size = new System.Drawing.Size(974, 19);
+            this.dividerLine1.TabIndex = 3;
+            this.dividerLine1.Text = "dividerLine1";
+            // 
+            // roundedPanel6
+            // 
+            this.roundedPanel6.BackColor = System.Drawing.Color.Transparent;
+            this.roundedPanel6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.roundedPanel6.BorderRadius = 25;
+            this.roundedPanel6.BorderSize = 1;
+            this.roundedPanel6.Controls.Add(this.botonPremium1);
+            this.roundedPanel6.Location = new System.Drawing.Point(221, 191);
+            this.roundedPanel6.Name = "roundedPanel6";
+            this.roundedPanel6.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.roundedPanel6.Size = new System.Drawing.Size(119, 51);
+            this.roundedPanel6.TabIndex = 9;
+            // 
+            // botonPremium1
+            // 
+            this.botonPremium1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.botonPremium1.FlatAppearance.BorderSize = 0;
+            this.botonPremium1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botonPremium1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botonPremium1.ForeColor = System.Drawing.Color.Transparent;
+            this.botonPremium1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.botonPremium1.Location = new System.Drawing.Point(16, 3);
+            this.botonPremium1.Name = "botonPremium1";
+            this.botonPremium1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.botonPremium1.Size = new System.Drawing.Size(86, 41);
+            this.botonPremium1.TabIndex = 1;
+            this.botonPremium1.Text = "[+] Agregar";
+            this.botonPremium1.UseVisualStyleBackColor = false;
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
+            this.textBox3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox3.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox3.Location = new System.Drawing.Point(106, 204);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(86, 23);
+            this.textBox3.TabIndex = 8;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label6.Location = new System.Drawing.Point(42, 207);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(58, 15);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "Cantidad:";
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
+            this.dataGridView2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.GridColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dataGridView2.Location = new System.Drawing.Point(36, 99);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(904, 86);
+            this.dataGridView2.TabIndex = 6;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Cascadia Code ExtraLight", 8F);
+            this.label7.ForeColor = System.Drawing.Color.Gold;
+            this.label7.Location = new System.Drawing.Point(33, 81);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(224, 15);
+            this.label7.TabIndex = 5;
+            this.label7.Text = "RESULTADOS (Doble para agregar)";
+            // 
+            // textBox4
+            // 
+            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
+            this.textBox4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox4.ForeColor = System.Drawing.SystemColors.Info;
+            this.textBox4.Location = new System.Drawing.Point(131, 15);
+            this.textBox4.Multiline = true;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(339, 23);
+            this.textBox4.TabIndex = 4;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label8.Location = new System.Drawing.Point(33, 23);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(96, 15);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "Buscar/Escancer:";
+            // 
             // roundedPanel1
             // 
             this.roundedPanel1.BackColor = System.Drawing.Color.Transparent;
@@ -93,7 +261,7 @@
             this.roundedPanel1.Location = new System.Drawing.Point(37, 69);
             this.roundedPanel1.Name = "roundedPanel1";
             this.roundedPanel1.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.roundedPanel1.Size = new System.Drawing.Size(1156, 563);
+            this.roundedPanel1.Size = new System.Drawing.Size(1061, 365);
             this.roundedPanel1.TabIndex = 16;
             // 
             // label9
@@ -125,7 +293,7 @@
             this.roundedPanel2.Location = new System.Drawing.Point(42, 45);
             this.roundedPanel2.Name = "roundedPanel2";
             this.roundedPanel2.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.roundedPanel2.Size = new System.Drawing.Size(1075, 337);
+            this.roundedPanel2.Size = new System.Drawing.Size(983, 261);
             this.roundedPanel2.TabIndex = 1;
             // 
             // dividerLine2
@@ -135,7 +303,7 @@
             this.dividerLine2.LineThickness = 1;
             this.dividerLine2.Location = new System.Drawing.Point(6, 59);
             this.dividerLine2.Name = "dividerLine2";
-            this.dividerLine2.Size = new System.Drawing.Size(1066, 19);
+            this.dividerLine2.Size = new System.Drawing.Size(974, 19);
             this.dividerLine2.TabIndex = 3;
             this.dividerLine2.Text = "dividerLine2";
             // 
@@ -146,10 +314,10 @@
             this.roundedPanel5.BorderRadius = 25;
             this.roundedPanel5.BorderSize = 1;
             this.roundedPanel5.Controls.Add(this.btnRegistrarVentaRapida);
-            this.roundedPanel5.Location = new System.Drawing.Point(196, 269);
+            this.roundedPanel5.Location = new System.Drawing.Point(221, 191);
             this.roundedPanel5.Name = "roundedPanel5";
             this.roundedPanel5.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.roundedPanel5.Size = new System.Drawing.Size(122, 54);
+            this.roundedPanel5.Size = new System.Drawing.Size(119, 51);
             this.roundedPanel5.TabIndex = 9;
             // 
             // btnRegistrarVentaRapida
@@ -160,7 +328,7 @@
             this.btnRegistrarVentaRapida.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrarVentaRapida.ForeColor = System.Drawing.Color.Transparent;
             this.btnRegistrarVentaRapida.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRegistrarVentaRapida.Location = new System.Drawing.Point(18, 4);
+            this.btnRegistrarVentaRapida.Location = new System.Drawing.Point(16, 3);
             this.btnRegistrarVentaRapida.Name = "btnRegistrarVentaRapida";
             this.btnRegistrarVentaRapida.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnRegistrarVentaRapida.Size = new System.Drawing.Size(86, 41);
@@ -173,7 +341,7 @@
             this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox1.Location = new System.Drawing.Point(97, 283);
+            this.textBox1.Location = new System.Drawing.Point(106, 204);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(86, 23);
@@ -184,7 +352,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label4.Location = new System.Drawing.Point(33, 286);
+            this.label4.Location = new System.Drawing.Point(42, 207);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(58, 15);
             this.label4.TabIndex = 7;
@@ -198,7 +366,7 @@
             this.dataGridView1.GridColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dataGridView1.Location = new System.Drawing.Point(36, 99);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(1001, 164);
+            this.dataGridView1.Size = new System.Drawing.Size(904, 86);
             this.dataGridView1.TabIndex = 6;
             // 
             // label3
@@ -239,14 +407,24 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
-            this.ClientSize = new System.Drawing.Size(1230, 621);
+            this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.Controls.Add(this.roundedPanel3);
             this.Controls.Add(this.roundedPanel1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Karolins);
+            this.MinimumSize = new System.Drawing.Size(1364, 766);
             this.Name = "frmVenta";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "frmVenta";
+            this.Load += new System.EventHandler(this.frmVenta_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.roundedPanel3.ResumeLayout(false);
+            this.roundedPanel3.PerformLayout();
+            this.roundedPanel4.ResumeLayout(false);
+            this.roundedPanel4.PerformLayout();
+            this.roundedPanel6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.roundedPanel1.ResumeLayout(false);
             this.roundedPanel1.PerformLayout();
             this.roundedPanel2.ResumeLayout(false);
@@ -275,5 +453,17 @@
         private BotonPremium btnRegistrarVentaRapida;
         private DividerLine dividerLine2;
         private System.Windows.Forms.Label label9;
+        private RoundedPanel roundedPanel3;
+        private System.Windows.Forms.Label label5;
+        private RoundedPanel roundedPanel4;
+        private DividerLine dividerLine1;
+        private RoundedPanel roundedPanel6;
+        private BotonPremium botonPremium1;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label8;
     }
 }

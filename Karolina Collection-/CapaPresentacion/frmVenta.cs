@@ -16,5 +16,10 @@ namespace Karolina_Collection_.CapaPresentacion
         {
             InitializeComponent();
         }
+
+        private void frmVenta_Load(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

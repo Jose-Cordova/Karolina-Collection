@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Karolina_Collection_.CapaPresentacion;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,7 +18,7 @@ namespace Karolina_Collection_
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Inicio());
+            Application.Run(new frmVenta());
         }
     }
 }
