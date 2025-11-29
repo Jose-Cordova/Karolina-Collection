@@ -46,10 +46,6 @@
             this.roundedPanel5 = new RoundedPanel();
             this.btnAgregarfila = new BotonPremium();
             this.dgvProductovariante = new System.Windows.Forms.DataGridView();
-            this.colTalla = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.colColor = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.colStock = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.colPrecio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.roundedPanel3 = new RoundedPanel();
             this.label8 = new System.Windows.Forms.Label();
             this.cbxSubcategoria = new System.Windows.Forms.ComboBox();
@@ -67,6 +63,10 @@
             this.dividerLine2 = new DividerLine();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.colTalla = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.colColor = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.colStock = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colPrecio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.roundedPanel1.SuspendLayout();
             this.roundedPanel8.SuspendLayout();
@@ -356,30 +356,6 @@
             this.dgvProductovariante.Size = new System.Drawing.Size(1141, 202);
             this.dgvProductovariante.TabIndex = 0;
             // 
-            // colTalla
-            // 
-            this.colTalla.HeaderText = "Talla(Selecionar)";
-            this.colTalla.MinimumWidth = 6;
-            this.colTalla.Name = "colTalla";
-            // 
-            // colColor
-            // 
-            this.colColor.HeaderText = "Color(Selecionar)";
-            this.colColor.MinimumWidth = 6;
-            this.colColor.Name = "colColor";
-            // 
-            // colStock
-            // 
-            this.colStock.HeaderText = "Stock Inicial";
-            this.colStock.MinimumWidth = 6;
-            this.colStock.Name = "colStock";
-            // 
-            // colPrecio
-            // 
-            this.colPrecio.HeaderText = "Precio";
-            this.colPrecio.MinimumWidth = 6;
-            this.colPrecio.Name = "colPrecio";
-            // 
             // roundedPanel3
             // 
             this.roundedPanel3.BackColor = System.Drawing.Color.Transparent;
@@ -603,6 +579,32 @@
             this.label3.Text = "Descripcion:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
+            // colTalla
+            // 
+            this.colTalla.HeaderText = "Talla(Selecionar)";
+            this.colTalla.MinimumWidth = 6;
+            this.colTalla.Name = "colTalla";
+            // 
+            // colColor
+            // 
+            this.colColor.HeaderText = "Color(Selecionar)";
+            this.colColor.MinimumWidth = 6;
+            this.colColor.Name = "colColor";
+            // 
+            // colStock
+            // 
+            this.colStock.HeaderText = "Stock Inicial";
+            this.colStock.MinimumWidth = 6;
+            this.colStock.Name = "colStock";
+            this.colStock.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.colStock.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // colPrecio
+            // 
+            this.colPrecio.HeaderText = "Precio";
+            this.colPrecio.MinimumWidth = 6;
+            this.colPrecio.Name = "colPrecio";
+            // 
             // frmProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -675,7 +677,7 @@
         private BotonPremium btnVolver_menu;
         private System.Windows.Forms.DataGridViewComboBoxColumn colTalla;
         private System.Windows.Forms.DataGridViewComboBoxColumn colColor;
-        private System.Windows.Forms.DataGridViewComboBoxColumn colStock;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colStock;
         private System.Windows.Forms.DataGridViewTextBoxColumn colPrecio;
     }
 }

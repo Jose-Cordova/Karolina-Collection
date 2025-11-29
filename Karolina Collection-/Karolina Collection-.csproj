@@ -49,7 +49,14 @@
     <Compile Include="BotonPremium.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="CapaDatos\CategoriaDAL.cs" />
+    <Compile Include="CapaDatos\ColorDAL.cs" />
     <Compile Include="CapaDatos\Conexion_DB.cs" />
+    <Compile Include="CapaDatos\MarcaDAL.cs" />
+    <Compile Include="CapaDatos\ProductoDAL.cs" />
+    <Compile Include="CapaDatos\ProveedorDAL.cs" />
+    <Compile Include="CapaDatos\Sub_categoriaDAL.cs" />
+    <Compile Include="CapaDatos\TallaDAL.cs" />
     <Compile Include="CapaEntidades\Categoria.cs" />
     <Compile Include="CapaEntidades\Cliente.cs" />
     <Compile Include="CapaEntidades\Color.cs" />
