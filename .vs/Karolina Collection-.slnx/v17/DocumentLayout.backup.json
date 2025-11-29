@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\jose6\\Documents\\Karolina Collection\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|c:\\users\\jose6\\documents\\karolina collection\\karolina collection-\\capapresentacion\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|C:\\Users\\jose6\\Documents\\Karolina Collection\\karolina collection-\\capapresentacion\\frmventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|solutionrelative:karolina collection-\\capapresentacion\\frmventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|c:\\users\\jose6\\documents\\karolina collection\\karolina collection-\\capadatos\\productodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|solutionrelative:karolina collection-\\capadatos\\productodal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|C:\\Users\\jose6\\Documents\\Karolina Collection\\karolina collection-\\capapresentacion\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|solutionrelative:karolina collection-\\capapresentacion\\frmproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|c:\\users\\jose6\\documents\\karolina collection\\karolina collection-\\capaentidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|solutionrelative:karolina collection-\\capaentidades\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|c:\\users\\jose6\\documents\\karolina collection\\karolina collection-\\capadatos\\talladal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|solutionrelative:karolina collection-\\capadatos\\talladal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|c:\\users\\jose6\\documents\\karolina collection\\karolina collection-\\capaentidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|solutionrelative:karolina collection-\\capaentidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|c:\\users\\jose6\\documents\\karolina collection\\karolina collection-\\capaentidades\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|solutionrelative:karolina collection-\\capaentidades\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|c:\\users\\jose6\\documents\\karolina collection\\karolina collection-\\capadatos\\conexion_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|solutionrelative:karolina collection-\\capadatos\\conexion_db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|c:\\users\\jose6\\documents\\karolina collection\\karolina collection-\\capadatos\\colordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|solutionrelative:karolina collection-\\capadatos\\colordal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|C:\\Users\\jose6\\Documents\\Karolina Collection\\karolina collection-\\capapresentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|solutionrelative:karolina collection-\\capapresentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|C:\\Users\\jose6\\Documents\\Karolina Collection\\karolina collection-\\capapresentacion\\frmventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|solutionrelative:karolina collection-\\capapresentacion\\frmventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,63 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\jose6\\Documents\\Karolina Collection\\Karolina Collection-\\CapaEntidades\\Cliente.cs",
-              "RelativeDocumentMoniker": "Karolina Collection-\\CapaEntidades\\Cliente.cs",
-              "ToolTip": "C:\\Users\\jose6\\Documents\\Karolina Collection\\Karolina Collection-\\CapaEntidades\\Cliente.cs",
-              "RelativeToolTip": "Karolina Collection-\\CapaEntidades\\Cliente.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:58:11.247Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\jose6\\Documents\\Karolina Collection\\Karolina Collection-\\CapaEntidades\\Usuario.cs",
-              "RelativeDocumentMoniker": "Karolina Collection-\\CapaEntidades\\Usuario.cs",
-              "ToolTip": "C:\\Users\\jose6\\Documents\\Karolina Collection\\Karolina Collection-\\CapaEntidades\\Usuario.cs*",
-              "RelativeToolTip": "Karolina Collection-\\CapaEntidades\\Usuario.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:56:46.709Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\jose6\\Documents\\Karolina Collection\\Karolina Collection-\\CapaEntidades\\Producto.cs",
-              "RelativeDocumentMoniker": "Karolina Collection-\\CapaEntidades\\Producto.cs",
-              "ToolTip": "C:\\Users\\jose6\\Documents\\Karolina Collection\\Karolina Collection-\\CapaEntidades\\Producto.cs*",
-              "RelativeToolTip": "Karolina Collection-\\CapaEntidades\\Producto.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Title": "TallaDAL.cs",
+              "DocumentMoniker": "C:\\Users\\jose6\\Documents\\Karolina Collection\\Karolina Collection-\\CapaDatos\\TallaDAL.cs",
+              "RelativeDocumentMoniker": "Karolina Collection-\\CapaDatos\\TallaDAL.cs",
+              "ToolTip": "C:\\Users\\jose6\\Documents\\Karolina Collection\\Karolina Collection-\\CapaDatos\\TallaDAL.cs",
+              "RelativeToolTip": "Karolina Collection-\\CapaDatos\\TallaDAL.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwC4AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:56:33.671Z",
+              "WhenOpened": "2025-11-28T23:37:29.475Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Conexion_DB.cs",
-              "DocumentMoniker": "C:\\Users\\jose6\\Documents\\Karolina Collection\\Karolina Collection-\\CapaDatos\\Conexion_DB.cs",
-              "RelativeDocumentMoniker": "Karolina Collection-\\CapaDatos\\Conexion_DB.cs",
-              "ToolTip": "C:\\Users\\jose6\\Documents\\Karolina Collection\\Karolina Collection-\\CapaDatos\\Conexion_DB.cs*",
-              "RelativeToolTip": "Karolina Collection-\\CapaDatos\\Conexion_DB.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Title": "ColorDAL.cs",
+              "DocumentMoniker": "C:\\Users\\jose6\\Documents\\Karolina Collection\\Karolina Collection-\\CapaDatos\\ColorDAL.cs",
+              "RelativeDocumentMoniker": "Karolina Collection-\\CapaDatos\\ColorDAL.cs",
+              "ToolTip": "C:\\Users\\jose6\\Documents\\Karolina Collection\\Karolina Collection-\\CapaDatos\\ColorDAL.cs",
+              "RelativeToolTip": "Karolina Collection-\\CapaDatos\\ColorDAL.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwDIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:56:14.13Z",
+              "WhenOpened": "2025-11-28T23:23:50.545Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -110,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "frmProducto.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\jose6\\Documents\\Karolina Collection\\Karolina Collection-\\CapaPresentacion\\frmProducto.cs",
               "RelativeDocumentMoniker": "Karolina Collection-\\CapaPresentacion\\frmProducto.cs",
@@ -122,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "frmVenta.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\jose6\\Documents\\Karolina Collection\\Karolina Collection-\\CapaPresentacion\\frmVenta.cs",
               "RelativeDocumentMoniker": "Karolina Collection-\\CapaPresentacion\\frmVenta.cs",
@@ -131,6 +101,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T03:24:15.877Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductoDAL.cs",
+              "DocumentMoniker": "C:\\Users\\jose6\\Documents\\Karolina Collection\\Karolina Collection-\\CapaDatos\\ProductoDAL.cs",
+              "RelativeDocumentMoniker": "Karolina Collection-\\CapaDatos\\ProductoDAL.cs",
+              "ToolTip": "C:\\Users\\jose6\\Documents\\Karolina Collection\\Karolina Collection-\\CapaDatos\\ProductoDAL.cs",
+              "RelativeToolTip": "Karolina Collection-\\CapaDatos\\ProductoDAL.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwDYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T00:01:12.252Z",
+              "EditorCaption": ""
             }
           ]
         }
