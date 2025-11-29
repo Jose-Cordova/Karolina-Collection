@@ -57,6 +57,7 @@
     <Compile Include="CapaDatos\ProveedorDAL.cs" />
     <Compile Include="CapaDatos\Sub_categoriaDAL.cs" />
     <Compile Include="CapaDatos\TallaDAL.cs" />
+    <Compile Include="CapaDatos\VentaDAL.cs" />
     <Compile Include="CapaEntidades\Categoria.cs" />
     <Compile Include="CapaEntidades\Cliente.cs" />
     <Compile Include="CapaEntidades\Color.cs" />
