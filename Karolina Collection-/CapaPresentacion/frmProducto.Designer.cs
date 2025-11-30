@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.Karolins = new System.Windows.Forms.Label();
             this.roundedPanel1 = new RoundedPanel();
@@ -67,7 +66,7 @@
             this.dividerLine2 = new DividerLine();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.roundedPanel1.SuspendLayout();
             this.roundedPanel8.SuspendLayout();
             this.roundedPanel6.SuspendLayout();
@@ -78,17 +77,8 @@
             this.roundedPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudCostobase)).BeginInit();
             this.roundedPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Karolina_Collection_.Properties.Resources.icons8_corona_48;
-            this.pictureBox2.Location = new System.Drawing.Point(16, 9);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(73, 63);
-            this.pictureBox2.TabIndex = 12;
-            this.pictureBox2.TabStop = false;
             // 
             // label1
             // 
@@ -242,7 +232,7 @@
             this.btnRegistrarproducto.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnRegistrarproducto.Size = new System.Drawing.Size(221, 48);
             this.btnRegistrarproducto.TabIndex = 6;
-            this.btnRegistrarproducto.Text = "GURDAR TODO\r\n(Transaccion)";
+            this.btnRegistrarproducto.Text = "GURDAR TODO\r\n";
             this.btnRegistrarproducto.UseVisualStyleBackColor = false;
             this.btnRegistrarproducto.Click += new System.EventHandler(this.btnRegistrarproducto_Click);
             // 
@@ -616,6 +606,16 @@
             this.label3.Text = "Descripcion:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Karolina_Collection_.Properties.Resources.icons8_corona_48;
+            this.pictureBox2.Location = new System.Drawing.Point(17, 8);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(73, 63);
+            this.pictureBox2.TabIndex = 12;
+            this.pictureBox2.TabStop = false;
+            // 
             // frmProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -631,7 +631,6 @@
             this.Name = "frmProducto";
             this.Text = "frm_Producto";
             this.Load += new System.EventHandler(this.frmProducto_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.roundedPanel1.ResumeLayout(false);
             this.roundedPanel1.PerformLayout();
             this.roundedPanel8.ResumeLayout(false);
@@ -645,6 +644,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.nudCostobase)).EndInit();
             this.roundedPanel2.ResumeLayout(false);
             this.roundedPanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

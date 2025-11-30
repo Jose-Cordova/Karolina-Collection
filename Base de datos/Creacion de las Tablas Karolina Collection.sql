@@ -213,7 +213,6 @@ INSERT INTO Producto_variante (stock, precio_venta, id_talla, id_color, id_produ
 create table Venta(
 id int primary key identity(1,1),
 fecha date not null,
-sub_total decimal(10,2) not null,
 monto_iva decimal(10,2) not null,
 total_venta decimal(10,2) not null,
 id_cliente int,
@@ -221,34 +220,36 @@ id_metodo_pago int,
 constraint FK_Ventas_Clientes foreign key (id_cliente) references Cliente(id),
 constraint FK_Ventas_Metodo_pago foreign key (id_metodo_pago) references Metodo_pago(id),
 );
-INSERT INTO Venta (fecha, sub_total, monto_iva, total_venta, id_cliente, id_metodo_pago) VALUES 
-('2024-11-20', 89.98, 11.70, 101.68, 1, 2),
-('2024-11-21', 69.99, 9.10, 79.09, 2, 1),
-('2024-11-22', 70.98, 9.23, 80.21, 3, 3),
-('2024-11-23', 114.98, 14.95, 129.93, 4, 2),
-('2024-11-24', 59.99, 7.80, 67.79, 5, 1);
+INSERT INTO Venta (fecha, monto_iva, total_venta, id_cliente, id_metodo_pago) VALUES 
+('2024-11-20',  11.70, 101.68, 1, 2),
+('2024-11-21',  9.10, 79.09, 2, 1),
+('2024-11-22',  9.23, 80.21, 3, 3),
+('2024-11-23',  14.95, 129.93, 4, 2),
+('2024-11-24',  7.80, 67.79, 5, 1);
 
 create table Detalle_venta(
 id int primary key identity(1,1),
 precio_unitario decimal(10,2) not null,
 cantidad int not null,
+sub_total decimal(10,2) not null,
 id_producto_variante int,
 id_venta int,
 constraint FK_Detalle_venta_Producto_variante foreign key (id_producto_variante) references Producto_variante(id),
-constraint FK_Detalle_venta_Venta foreign key (id_venta) references Venta(id),
+constraint FK_Detalle_venta_Venta foreign key (id_venta) references Venta(id)
 );
-INSERT INTO Detalle_venta (precio_unitario, cantidad, id_producto_variante, id_venta) VALUES 
+
+INSERT INTO Detalle_venta (precio_unitario, cantidad, sub_total, id_producto_variante, id_venta) VALUES 
 -- Venta 1
-(49.99, 1, 1, 1),
-(39.99, 1, 5, 1),
+(49.99, 1, 49.99, 1, 1),
+(39.99, 1, 39.99, 5, 1),
 -- Venta 2
-(69.99, 1, 18, 2),
--- Venta 3
-(12.99, 2, 9, 3),
-(45.00, 1, 16, 3),
+(69.99, 1, 69.99, 18, 2),
+-- Venta 3 
+(12.99, 2, 25.98, 9, 3), 
+(45.00, 1, 45.00, 16, 3),
 -- Venta 4
-(35.00, 1, 27, 4),
-(49.99, 1, 37, 4),
-(29.99, 1, 32, 4),
+(35.00, 1, 35.00, 27, 4),
+(49.99, 1, 49.99, 37, 4),
+(29.99, 1, 29.99, 32, 4),
 -- Venta 5
-(59.99, 1, 40, 5);
+(59.99, 1, 59.99, 40, 5);
