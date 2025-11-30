@@ -41,11 +41,15 @@
             this.btnRegistrarproducto = new BotonPremium();
             this.dividerLine1 = new DividerLine();
             this.roundedPanel4 = new RoundedPanel();
-            this.roundedPanel7 = new RoundedPanel();
-            this.btnQuitarfila = new BotonPremium();
             this.roundedPanel5 = new RoundedPanel();
             this.btnAgregarfila = new BotonPremium();
+            this.roundedPanel7 = new RoundedPanel();
+            this.btnQuitarfila = new BotonPremium();
             this.dgvProductovariante = new System.Windows.Forms.DataGridView();
+            this.colTalla = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.colColor = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.colStock = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colPrecio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.roundedPanel3 = new RoundedPanel();
             this.label8 = new System.Windows.Forms.Label();
             this.cbxSubcategoria = new System.Windows.Forms.ComboBox();
@@ -63,17 +67,13 @@
             this.dividerLine2 = new DividerLine();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.colTalla = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.colColor = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.colStock = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colPrecio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.roundedPanel1.SuspendLayout();
             this.roundedPanel8.SuspendLayout();
             this.roundedPanel6.SuspendLayout();
             this.roundedPanel4.SuspendLayout();
-            this.roundedPanel7.SuspendLayout();
             this.roundedPanel5.SuspendLayout();
+            this.roundedPanel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductovariante)).BeginInit();
             this.roundedPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudCostobase)).BeginInit();
@@ -133,6 +133,7 @@
             this.roundedPanel1.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
             this.roundedPanel1.Size = new System.Drawing.Size(1643, 677);
             this.roundedPanel1.TabIndex = 13;
+            this.roundedPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.roundedPanel1_Paint);
             // 
             // roundedPanel8
             // 
@@ -216,7 +217,7 @@
             this.btnCancelarproducto.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelarproducto.ForeColor = System.Drawing.Color.Transparent;
             this.btnCancelarproducto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCancelarproducto.Location = new System.Drawing.Point(21, 102);
+            this.btnCancelarproducto.Location = new System.Drawing.Point(21, 91);
             this.btnCancelarproducto.Margin = new System.Windows.Forms.Padding(4);
             this.btnCancelarproducto.Name = "btnCancelarproducto";
             this.btnCancelarproducto.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -224,6 +225,7 @@
             this.btnCancelarproducto.TabIndex = 7;
             this.btnCancelarproducto.Text = "CANCELAR";
             this.btnCancelarproducto.UseVisualStyleBackColor = false;
+            this.btnCancelarproducto.Click += new System.EventHandler(this.btnCancelarproducto_Click);
             // 
             // btnRegistrarproducto
             // 
@@ -234,7 +236,7 @@
             this.btnRegistrarproducto.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrarproducto.ForeColor = System.Drawing.Color.Transparent;
             this.btnRegistrarproducto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRegistrarproducto.Location = new System.Drawing.Point(4, 21);
+            this.btnRegistrarproducto.Location = new System.Drawing.Point(4, 19);
             this.btnRegistrarproducto.Margin = new System.Windows.Forms.Padding(4);
             this.btnRegistrarproducto.Name = "btnRegistrarproducto";
             this.btnRegistrarproducto.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -242,6 +244,7 @@
             this.btnRegistrarproducto.TabIndex = 6;
             this.btnRegistrarproducto.Text = "GURDAR TODO\r\n(Transaccion)";
             this.btnRegistrarproducto.UseVisualStyleBackColor = false;
+            this.btnRegistrarproducto.Click += new System.EventHandler(this.btnRegistrarproducto_Click);
             // 
             // dividerLine1
             // 
@@ -261,8 +264,8 @@
             this.roundedPanel4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
             this.roundedPanel4.BorderRadius = 25;
             this.roundedPanel4.BorderSize = 1;
-            this.roundedPanel4.Controls.Add(this.roundedPanel7);
             this.roundedPanel4.Controls.Add(this.roundedPanel5);
+            this.roundedPanel4.Controls.Add(this.roundedPanel7);
             this.roundedPanel4.Controls.Add(this.dgvProductovariante);
             this.roundedPanel4.Location = new System.Drawing.Point(63, 309);
             this.roundedPanel4.Margin = new System.Windows.Forms.Padding(4);
@@ -271,6 +274,39 @@
             this.roundedPanel4.Size = new System.Drawing.Size(1255, 320);
             this.roundedPanel4.TabIndex = 2;
             // 
+            // roundedPanel5
+            // 
+            this.roundedPanel5.BackColor = System.Drawing.Color.Transparent;
+            this.roundedPanel5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.roundedPanel5.BorderRadius = 25;
+            this.roundedPanel5.BorderSize = 1;
+            this.roundedPanel5.Controls.Add(this.btnAgregarfila);
+            this.roundedPanel5.Location = new System.Drawing.Point(94, 238);
+            this.roundedPanel5.Margin = new System.Windows.Forms.Padding(4);
+            this.roundedPanel5.Name = "roundedPanel5";
+            this.roundedPanel5.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.roundedPanel5.Size = new System.Drawing.Size(167, 64);
+            this.roundedPanel5.TabIndex = 6;
+            // 
+            // btnAgregarfila
+            // 
+            this.btnAgregarfila.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.btnAgregarfila.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAgregarfila.FlatAppearance.BorderSize = 0;
+            this.btnAgregarfila.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAgregarfila.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarfila.ForeColor = System.Drawing.Color.Transparent;
+            this.btnAgregarfila.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAgregarfila.Location = new System.Drawing.Point(15, 4);
+            this.btnAgregarfila.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAgregarfila.Name = "btnAgregarfila";
+            this.btnAgregarfila.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnAgregarfila.Size = new System.Drawing.Size(135, 57);
+            this.btnAgregarfila.TabIndex = 5;
+            this.btnAgregarfila.Text = "[+] Agregar Fila";
+            this.btnAgregarfila.UseVisualStyleBackColor = false;
+            this.btnAgregarfila.Click += new System.EventHandler(this.btnAgregarfila_Click);
+            // 
             // roundedPanel7
             // 
             this.roundedPanel7.BackColor = System.Drawing.Color.Transparent;
@@ -278,7 +314,7 @@
             this.roundedPanel7.BorderRadius = 25;
             this.roundedPanel7.BorderSize = 1;
             this.roundedPanel7.Controls.Add(this.btnQuitarfila);
-            this.roundedPanel7.Location = new System.Drawing.Point(241, 241);
+            this.roundedPanel7.Location = new System.Drawing.Point(358, 238);
             this.roundedPanel7.Margin = new System.Windows.Forms.Padding(4);
             this.roundedPanel7.Name = "roundedPanel7";
             this.roundedPanel7.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
@@ -294,7 +330,7 @@
             this.btnQuitarfila.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuitarfila.ForeColor = System.Drawing.Color.Transparent;
             this.btnQuitarfila.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQuitarfila.Location = new System.Drawing.Point(19, 4);
+            this.btnQuitarfila.Location = new System.Drawing.Point(17, 4);
             this.btnQuitarfila.Margin = new System.Windows.Forms.Padding(4);
             this.btnQuitarfila.Name = "btnQuitarfila";
             this.btnQuitarfila.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -304,40 +340,9 @@
             this.btnQuitarfila.UseVisualStyleBackColor = false;
             this.btnQuitarfila.Click += new System.EventHandler(this.botonPremium1_Click);
             // 
-            // roundedPanel5
-            // 
-            this.roundedPanel5.BackColor = System.Drawing.Color.Transparent;
-            this.roundedPanel5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.roundedPanel5.BorderRadius = 25;
-            this.roundedPanel5.BorderSize = 1;
-            this.roundedPanel5.Controls.Add(this.btnAgregarfila);
-            this.roundedPanel5.Location = new System.Drawing.Point(71, 241);
-            this.roundedPanel5.Margin = new System.Windows.Forms.Padding(4);
-            this.roundedPanel5.Name = "roundedPanel5";
-            this.roundedPanel5.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.roundedPanel5.Size = new System.Drawing.Size(163, 64);
-            this.roundedPanel5.TabIndex = 3;
-            // 
-            // btnAgregarfila
-            // 
-            this.btnAgregarfila.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.btnAgregarfila.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAgregarfila.FlatAppearance.BorderSize = 0;
-            this.btnAgregarfila.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAgregarfila.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAgregarfila.ForeColor = System.Drawing.Color.Transparent;
-            this.btnAgregarfila.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAgregarfila.Location = new System.Drawing.Point(25, 11);
-            this.btnAgregarfila.Margin = new System.Windows.Forms.Padding(4);
-            this.btnAgregarfila.Name = "btnAgregarfila";
-            this.btnAgregarfila.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnAgregarfila.Size = new System.Drawing.Size(115, 49);
-            this.btnAgregarfila.TabIndex = 1;
-            this.btnAgregarfila.Text = "[+] Agregar Fila";
-            this.btnAgregarfila.UseVisualStyleBackColor = false;
-            // 
             // dgvProductovariante
             // 
+            this.dgvProductovariante.AllowUserToAddRows = false;
             this.dgvProductovariante.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvProductovariante.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
             this.dgvProductovariante.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -355,6 +360,32 @@
             this.dgvProductovariante.RowHeadersWidth = 51;
             this.dgvProductovariante.Size = new System.Drawing.Size(1141, 202);
             this.dgvProductovariante.TabIndex = 0;
+            // 
+            // colTalla
+            // 
+            this.colTalla.HeaderText = "Talla(Selecionar)";
+            this.colTalla.MinimumWidth = 6;
+            this.colTalla.Name = "colTalla";
+            // 
+            // colColor
+            // 
+            this.colColor.HeaderText = "Color(Selecionar)";
+            this.colColor.MinimumWidth = 6;
+            this.colColor.Name = "colColor";
+            // 
+            // colStock
+            // 
+            this.colStock.HeaderText = "Stock Inicial";
+            this.colStock.MinimumWidth = 6;
+            this.colStock.Name = "colStock";
+            this.colStock.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.colStock.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // colPrecio
+            // 
+            this.colPrecio.HeaderText = "Precio Venta";
+            this.colPrecio.MinimumWidth = 6;
+            this.colPrecio.Name = "colPrecio";
             // 
             // roundedPanel3
             // 
@@ -384,7 +415,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label8.Location = new System.Drawing.Point(508, 81);
+            this.label8.Location = new System.Drawing.Point(508, 76);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(100, 20);
@@ -402,6 +433,8 @@
             this.cbxSubcategoria.Name = "cbxSubcategoria";
             this.cbxSubcategoria.Size = new System.Drawing.Size(307, 28);
             this.cbxSubcategoria.TabIndex = 12;
+            this.cbxSubcategoria.SelectedIndexChanged += new System.EventHandler(this.cbxSubcategoria_SelectedIndexChanged);
+            this.cbxSubcategoria.SelectionChangeCommitted += new System.EventHandler(this.cbxSubcategoria_SelectionChangeCommitted);
             // 
             // cbxProveedor
             // 
@@ -430,6 +463,7 @@
             // nudCostobase
             // 
             this.nudCostobase.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
+            this.nudCostobase.DecimalPlaces = 2;
             this.nudCostobase.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nudCostobase.ForeColor = System.Drawing.SystemColors.Window;
             this.nudCostobase.Location = new System.Drawing.Point(153, 118);
@@ -437,6 +471,7 @@
             this.nudCostobase.Name = "nudCostobase";
             this.nudCostobase.Size = new System.Drawing.Size(100, 27);
             this.nudCostobase.TabIndex = 9;
+            this.nudCostobase.ValueChanged += new System.EventHandler(this.nudCostobase_ValueChanged);
             // 
             // label6
             // 
@@ -461,6 +496,7 @@
             this.cbxCategoria.Name = "cbxCategoria";
             this.cbxCategoria.Size = new System.Drawing.Size(307, 28);
             this.cbxCategoria.TabIndex = 7;
+            this.cbxCategoria.SelectedIndexChanged += new System.EventHandler(this.cbxCategoria_SelectedIndexChanged);
             // 
             // label5
             // 
@@ -529,6 +565,7 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(277, 27);
             this.txtNombre.TabIndex = 4;
+            this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
             // 
             // txtDescripcion
             // 
@@ -579,32 +616,6 @@
             this.label3.Text = "Descripcion:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // colTalla
-            // 
-            this.colTalla.HeaderText = "Talla(Selecionar)";
-            this.colTalla.MinimumWidth = 6;
-            this.colTalla.Name = "colTalla";
-            // 
-            // colColor
-            // 
-            this.colColor.HeaderText = "Color(Selecionar)";
-            this.colColor.MinimumWidth = 6;
-            this.colColor.Name = "colColor";
-            // 
-            // colStock
-            // 
-            this.colStock.HeaderText = "Stock Inicial";
-            this.colStock.MinimumWidth = 6;
-            this.colStock.Name = "colStock";
-            this.colStock.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.colStock.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // colPrecio
-            // 
-            this.colPrecio.HeaderText = "Precio";
-            this.colPrecio.MinimumWidth = 6;
-            this.colPrecio.Name = "colPrecio";
-            // 
             // frmProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -619,14 +630,15 @@
             this.MaximizeBox = false;
             this.Name = "frmProducto";
             this.Text = "frm_Producto";
+            this.Load += new System.EventHandler(this.frmProducto_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.roundedPanel1.ResumeLayout(false);
             this.roundedPanel1.PerformLayout();
             this.roundedPanel8.ResumeLayout(false);
             this.roundedPanel6.ResumeLayout(false);
             this.roundedPanel4.ResumeLayout(false);
-            this.roundedPanel7.ResumeLayout(false);
             this.roundedPanel5.ResumeLayout(false);
+            this.roundedPanel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductovariante)).EndInit();
             this.roundedPanel3.ResumeLayout(false);
             this.roundedPanel3.PerformLayout();
@@ -661,11 +673,9 @@
         private System.Windows.Forms.ComboBox cbxSubcategoria;
         private System.Windows.Forms.ComboBox cbxProveedor;
         private System.Windows.Forms.Label label7;
-        private RoundedPanel roundedPanel5;
         private RoundedPanel roundedPanel4;
         private System.Windows.Forms.DataGridView dgvProductovariante;
         private RoundedPanel roundedPanel6;
-        private BotonPremium btnAgregarfila;
         private RoundedPanel roundedPanel7;
         private BotonPremium btnQuitarfila;
         private DividerLine dividerLine1;
@@ -675,6 +685,8 @@
         private System.Windows.Forms.Label label9;
         private RoundedPanel roundedPanel8;
         private BotonPremium btnVolver_menu;
+        private RoundedPanel roundedPanel5;
+        private BotonPremium btnAgregarfila;
         private System.Windows.Forms.DataGridViewComboBoxColumn colTalla;
         private System.Windows.Forms.DataGridViewComboBoxColumn colColor;
         private System.Windows.Forms.DataGridViewTextBoxColumn colStock;

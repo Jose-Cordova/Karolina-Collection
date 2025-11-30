@@ -53,8 +53,10 @@ namespace Karolina_Collection_.CapaDatos
             }
             return dt;
         }
+        //Metodo para registrar producto con variantes en una transaccion
         public bool Registrar_producto_transaccional(Producto p, List<Producto_variante> listaVariantes, out string Mensaje)
         {
+            // Resetea el mensaje para devolver información al final
             Mensaje = string.Empty;
 
             using (SqlConnection conexion = new SqlConnection(Conexion_DB.cadena_conexion))
@@ -70,7 +72,7 @@ namespace Karolina_Collection_.CapaDatos
                                 INSERT INTO Producto(nombre_producto, descripcion, precio_base, id_sub_categoria, id_marca, id_proveedor) 
                                 VALUES(@nombre_producto, @descripcion, @precio_base, @id_sub_categoria, @id_marca, @id_proveedor);
                                 SELECT SCOPE_IDENTITY();";
-
+                            //Aquí se guardará el ID del producto recién insertado
                             int id_generado = 0;
 
                             using (SqlCommand cmd = new SqlCommand(consulta, conexion, transaccion))
@@ -82,31 +84,37 @@ namespace Karolina_Collection_.CapaDatos
                                 cmd.Parameters.AddWithValue("@id_marca", p.id_marca);
                                 cmd.Parameters.AddWithValue("@id_proveedor", p.id_proveedor);
 
+                                // Ejecuta la consulta y obtiene el ID generado con SCOPE_IDENTITY()
                                 id_generado = Convert.ToInt32(cmd.ExecuteScalar());
                             }
+                            //Recorre la lista de variantes para insertarlas
                             foreach (Producto_variante item in listaVariantes)
                             {
                                 string consulta_variante = @"
                                      INSERT INTO Producto_variante(stock, precio_venta, id_talla, id_color, id_producto) 
                                      VALUES(@stock, @precio_venta, @id_talla, @id_color, @id_producto)";
 
-                                using (SqlCommand cmdVar = new SqlCommand(consulta_variante, conexion, transaccion))
+                                using (SqlCommand cmd_variante = new SqlCommand(consulta_variante, conexion, transaccion))
                                 {
-                                    cmdVar.Parameters.AddWithValue("@stock", item.stock);
-                                    cmdVar.Parameters.AddWithValue("@precio_venta", item.precio_venta);
-                                    cmdVar.Parameters.AddWithValue("@id_talla", item.id_talla);
-                                    cmdVar.Parameters.AddWithValue("@id_color", item.id_color);
-                                    cmdVar.Parameters.AddWithValue("@id_producto", id_generado);
+                                    cmd_variante.Parameters.AddWithValue("@stock", item.stock);
+                                    cmd_variante.Parameters.AddWithValue("@precio_venta", item.precio_venta);
+                                    cmd_variante.Parameters.AddWithValue("@id_talla", item.id_talla);
+                                    cmd_variante.Parameters.AddWithValue("@id_color", item.id_color);
+                                    cmd_variante.Parameters.AddWithValue("@id_producto", id_generado);
 
-                                    cmdVar.ExecuteNonQuery();
+                                    //Ejecuta la consulta para insertar la variante
+                                    cmd_variante.ExecuteNonQuery();
                                 }
                             }
+                            //Si todo sale bien se confirma la transacción
                             transaccion.Commit();
+                            //Mensaje de éxito
                             Mensaje = "Producto y variantes registrados con éxito.";
                             return true;
                         }
                         catch (Exception ex)
                         {
+                            //En caso de error, se revierte la transacción
                             transaccion.Rollback();
                             Mensaje = "Error en la transacción: " + ex.Message;
                             return false;
@@ -115,11 +123,13 @@ namespace Karolina_Collection_.CapaDatos
                 }
                 catch (Exception ex)
                 {
+                    //Error de conexión a la DB
                     Mensaje = "Error de conexión: " + ex.Message;
                     return false;
                 }
             }
         }
+        //Metodo para actualizar producto
         public bool Actualizar_producto(Producto p)
         {
             using (SqlConnection conexion = new SqlConnection(Conexion_DB.cadena_conexion))
