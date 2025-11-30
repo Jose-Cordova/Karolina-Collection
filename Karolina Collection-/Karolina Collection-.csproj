@@ -57,7 +57,6 @@
     <Compile Include="CapaDatos\ProveedorDAL.cs" />
     <Compile Include="CapaDatos\Sub_categoriaDAL.cs" />
     <Compile Include="CapaDatos\TallaDAL.cs" />
-    <Compile Include="CapaDatos\VentaDAL.cs" />
     <Compile Include="CapaEntidades\Categoria.cs" />
     <Compile Include="CapaEntidades\Cliente.cs" />
     <Compile Include="CapaEntidades\Color.cs" />
@@ -72,6 +71,13 @@
     <Compile Include="CapaEntidades\Usuario.cs" />
     <Compile Include="CapaEntidades\Validaciones1.cs" />
     <Compile Include="CapaEntidades\Venta.cs" />
+    <Compile Include="CapaNegocio\CategoriaBLL.cs" />
+    <Compile Include="CapaNegocio\ColorBLL.cs" />
+    <Compile Include="CapaNegocio\MarcaBLL.cs" />
+    <Compile Include="CapaNegocio\ProductoBLL.cs" />
+    <Compile Include="CapaNegocio\ProveedorBLL.cs" />
+    <Compile Include="CapaNegocio\Sub_categoriaBLL.cs" />
+    <Compile Include="CapaNegocio\TallaBLL.cs" />
     <Compile Include="CapaPresentacion\frmProducto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,9 +136,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="CapaNegocio\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\images.jpeg" />
   </ItemGroup>

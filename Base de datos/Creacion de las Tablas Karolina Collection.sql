@@ -52,9 +52,9 @@ INSERT INTO Color (nombre_color) VALUES
 
 create table Categoria(
 id int primary key identity(1,1),
-nombre_catagoria varchar(100)not null,
+nombre_categoria varchar(100)not null,
 );
-INSERT INTO Categoria (nombre_catagoria) VALUES 
+INSERT INTO Categoria (nombre_categoria) VALUES 
 ('Ropa Hombre'),
 ('Ropa Mujer'),
 ('Ropa Deportiva'),
