@@ -91,7 +91,10 @@ namespace Karolina_Collection_
 
         private void botonPremium3_Click(object sender, EventArgs e)
         {
-
+            // Abrir el formulario frmProducto al hacer clic en el botón
+            frmInventario frm = new frmInventario();
+            // Muestra el formulario
+            frm.ShowDialog();
         }
 
         private void dividerLine5_Click(object sender, EventArgs e)
@@ -122,6 +125,14 @@ namespace Karolina_Collection_
             {
                 this.Close(); //Cerrar el formulario
             }
+        }
+
+        private void btnCliente_Click(object sender, EventArgs e)
+        {
+            // Abrir el formulario frmProducto al hacer clic en el botón
+            frmClientes frm = new frmClientes();
+            // Muestra el formulario
+            frm.ShowDialog();
         }
     }
 }

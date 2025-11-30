@@ -319,6 +319,7 @@
             this.btnCliente.TabIndex = 2;
             this.btnCliente.Text = "Registro Cliente";
             this.btnCliente.UseVisualStyleBackColor = false;
+            this.btnCliente.Click += new System.EventHandler(this.btnCliente_Click);
             // 
             // btnVenta_rapida
             // 

@@ -196,7 +196,6 @@ namespace Karolina_Collection_.CapaPresentacion
 
         private void btnRegistrarproducto_Click(object sender, EventArgs e)
         {
-        
             //VALIDACIONES PRINCIPALES
             //Verificar que el nombre no este vasio y no tenga numeros
             if (string.IsNullOrWhiteSpace(txtNombre.Text) || txtNombre.Text.Any(char.IsDigit))
