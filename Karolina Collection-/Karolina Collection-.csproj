@@ -66,6 +66,7 @@
     <Compile Include="CapaEntidades\Producto.cs" />
     <Compile Include="CapaEntidades\Producto_variante.cs" />
     <Compile Include="CapaEntidades\Proveedor.cs" />
+    <Compile Include="CapaEntidades\prueva.cs" />
     <Compile Include="CapaEntidades\Sub_categoria.cs" />
     <Compile Include="CapaEntidades\Talla.cs" />
     <Compile Include="CapaEntidades\Usuario.cs" />
