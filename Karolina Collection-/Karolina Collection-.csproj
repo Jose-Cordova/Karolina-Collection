@@ -50,6 +50,7 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="CapaDatos\CategoriaDAL.cs" />
+    <Compile Include="CapaDatos\ClienteDAL.cs" />
     <Compile Include="CapaDatos\ColorDAL.cs" />
     <Compile Include="CapaDatos\Conexion_DB.cs" />
     <Compile Include="CapaDatos\MarcaDAL.cs" />
