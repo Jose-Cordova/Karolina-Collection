@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.Karolins = new System.Windows.Forms.Label();
             this.roundedPanel1 = new RoundedPanel();
             this.roundedPanel8 = new RoundedPanel();
@@ -46,24 +45,15 @@
             this.txtBuscarProducto = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.roundedPanel1.SuspendLayout();
             this.roundedPanel8.SuspendLayout();
             this.roundedPanel6.SuspendLayout();
             this.roundedPanel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudMprecio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvInventario)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Karolina_Collection_.Properties.Resources.icons8_corona_48;
-            this.pictureBox2.Location = new System.Drawing.Point(25, 13);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(62, 51);
-            this.pictureBox2.TabIndex = 13;
-            this.pictureBox2.TabStop = false;
             // 
             // Karolins
             // 
@@ -307,10 +297,21 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Elegancia y Estilo para Ti";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Karolina_Collection_.Properties.Resources.icons8_corona_48;
+            this.pictureBox2.Location = new System.Drawing.Point(25, 13);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(62, 51);
+            this.pictureBox2.TabIndex = 13;
+            this.pictureBox2.TabStop = false;
+            // 
             // frmInventario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
             this.ClientSize = new System.Drawing.Size(978, 768);
             this.Controls.Add(this.label1);
@@ -319,8 +320,8 @@
             this.Controls.Add(this.pictureBox2);
             this.MaximizeBox = false;
             this.Name = "frmInventario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmInventario";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.roundedPanel1.ResumeLayout(false);
             this.roundedPanel1.PerformLayout();
             this.roundedPanel8.ResumeLayout(false);
@@ -329,6 +330,7 @@
             this.roundedPanel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudMprecio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvInventario)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
