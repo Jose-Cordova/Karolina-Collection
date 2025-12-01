@@ -33,58 +33,56 @@
             this.label1 = new System.Windows.Forms.Label();
             this.roundedPanel1 = new RoundedPanel();
             this.label9 = new System.Windows.Forms.Label();
-            this.botonPremium1 = new BotonPremium();
+            this.btnNuevoCliente = new BotonPremium();
             this.roundedPanel2 = new RoundedPanel();
-            this.txtNombreCompleto = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cboCliente = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.roundedPanel3 = new RoundedPanel();
             this.label4 = new System.Windows.Forms.Label();
             this.roundedPanel4 = new RoundedPanel();
-            this.botonPremium2 = new BotonPremium();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.dgvClientes = new System.Windows.Forms.DataGridView();
+            this.btnAgregarProducto = new BotonPremium();
+            this.txtBuscarProducto = new System.Windows.Forms.TextBox();
+            this.dgvProductos = new System.Windows.Forms.DataGridView();
             this.label7 = new System.Windows.Forms.Label();
             this.dividerLine2 = new DividerLine();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.roundedPanel5 = new RoundedPanel();
-            this.botonPremium5 = new BotonPremium();
-            this.botonPremium4 = new BotonPremium();
+            this.btnVolver_menu = new BotonPremium();
+            this.btnRegistraVenta = new BotonPremium();
+            this.btnLimpiarDetalle = new BotonPremium();
             this.label10 = new System.Windows.Forms.Label();
             this.roundedPanel6 = new RoundedPanel();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtCambio = new System.Windows.Forms.TextBox();
+            this.txtMresivido = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.roundedPanel7 = new RoundedPanel();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtTotal = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtIva = new System.Windows.Forms.TextBox();
+            this.txtSubTotal = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.botonPremium3 = new BotonPremium();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.cboMetodo_pago = new System.Windows.Forms.ComboBox();
+            this.btnQuitar = new BotonPremium();
+            this.dgvDetalles = new System.Windows.Forms.DataGridView();
             this.dividerLine1 = new DividerLine();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.botonPremium6 = new BotonPremium();
+            this.label3 = new System.Windows.Forms.Label();
+            this.dtpFecha = new System.Windows.Forms.DateTimePicker();
+            this.btnBuscarProducto = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.roundedPanel1.SuspendLayout();
             this.roundedPanel2.SuspendLayout();
             this.roundedPanel3.SuspendLayout();
             this.roundedPanel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).BeginInit();
             this.roundedPanel5.SuspendLayout();
             this.roundedPanel6.SuspendLayout();
             this.roundedPanel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDetalles)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox2
@@ -128,7 +126,7 @@
             this.roundedPanel1.BorderRadius = 25;
             this.roundedPanel1.BorderSize = 1;
             this.roundedPanel1.Controls.Add(this.label9);
-            this.roundedPanel1.Controls.Add(this.botonPremium1);
+            this.roundedPanel1.Controls.Add(this.btnNuevoCliente);
             this.roundedPanel1.Controls.Add(this.roundedPanel2);
             this.roundedPanel1.Location = new System.Drawing.Point(44, 83);
             this.roundedPanel1.Name = "roundedPanel1";
@@ -148,20 +146,20 @@
             this.label9.TabIndex = 15;
             this.label9.Text = "1. DATOS CLIENTES";
             // 
-            // botonPremium1
+            // btnNuevoCliente
             // 
-            this.botonPremium1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.botonPremium1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.botonPremium1.FlatAppearance.BorderSize = 0;
-            this.botonPremium1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botonPremium1.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botonPremium1.ForeColor = System.Drawing.Color.White;
-            this.botonPremium1.Location = new System.Drawing.Point(578, 139);
-            this.botonPremium1.Name = "botonPremium1";
-            this.botonPremium1.Size = new System.Drawing.Size(232, 42);
-            this.botonPremium1.TabIndex = 11;
-            this.botonPremium1.Text = "Cambiar Cliente";
-            this.botonPremium1.UseVisualStyleBackColor = false;
+            this.btnNuevoCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnNuevoCliente.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNuevoCliente.FlatAppearance.BorderSize = 0;
+            this.btnNuevoCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNuevoCliente.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNuevoCliente.ForeColor = System.Drawing.Color.White;
+            this.btnNuevoCliente.Location = new System.Drawing.Point(578, 139);
+            this.btnNuevoCliente.Name = "btnNuevoCliente";
+            this.btnNuevoCliente.Size = new System.Drawing.Size(232, 42);
+            this.btnNuevoCliente.TabIndex = 11;
+            this.btnNuevoCliente.Text = "Nuevo";
+            this.btnNuevoCliente.UseVisualStyleBackColor = false;
             // 
             // roundedPanel2
             // 
@@ -169,39 +167,24 @@
             this.roundedPanel2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
             this.roundedPanel2.BorderRadius = 25;
             this.roundedPanel2.BorderSize = 1;
-            this.roundedPanel2.Controls.Add(this.txtNombreCompleto);
-            this.roundedPanel2.Controls.Add(this.textBox1);
-            this.roundedPanel2.Controls.Add(this.label2);
+            this.roundedPanel2.Controls.Add(this.dtpFecha);
             this.roundedPanel2.Controls.Add(this.label3);
+            this.roundedPanel2.Controls.Add(this.cboCliente);
+            this.roundedPanel2.Controls.Add(this.label2);
             this.roundedPanel2.Location = new System.Drawing.Point(57, 74);
             this.roundedPanel2.Name = "roundedPanel2";
             this.roundedPanel2.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
             this.roundedPanel2.Size = new System.Drawing.Size(1255, 242);
             this.roundedPanel2.TabIndex = 12;
             // 
-            // txtNombreCompleto
+            // cboCliente
             // 
-            this.txtNombreCompleto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
-            this.txtNombreCompleto.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombreCompleto.ForeColor = System.Drawing.SystemColors.Info;
-            this.txtNombreCompleto.Location = new System.Drawing.Point(138, 62);
-            this.txtNombreCompleto.Margin = new System.Windows.Forms.Padding(4);
-            this.txtNombreCompleto.Multiline = true;
-            this.txtNombreCompleto.Name = "txtNombreCompleto";
-            this.txtNombreCompleto.Size = new System.Drawing.Size(329, 27);
-            this.txtNombreCompleto.TabIndex = 8;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox1.Location = new System.Drawing.Point(138, 148);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(329, 27);
-            this.textBox1.TabIndex = 10;
+            this.cboCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
+            this.cboCliente.FormattingEnabled = true;
+            this.cboCliente.Location = new System.Drawing.Point(108, 64);
+            this.cboCliente.Name = "cboCliente";
+            this.cboCliente.Size = new System.Drawing.Size(359, 24);
+            this.cboCliente.TabIndex = 11;
             // 
             // label2
             // 
@@ -214,18 +197,6 @@
             this.label2.Size = new System.Drawing.Size(67, 23);
             this.label2.TabIndex = 3;
             this.label2.Text = "Cliente:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label3.Location = new System.Drawing.Point(33, 148);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(77, 23);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "DUI/NIT:";
             // 
             // roundedPanel3
             // 
@@ -259,84 +230,58 @@
             this.roundedPanel4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
             this.roundedPanel4.BorderRadius = 25;
             this.roundedPanel4.BorderSize = 1;
-            this.roundedPanel4.Controls.Add(this.botonPremium2);
-            this.roundedPanel4.Controls.Add(this.textBox3);
-            this.roundedPanel4.Controls.Add(this.label8);
-            this.roundedPanel4.Controls.Add(this.textBox2);
-            this.roundedPanel4.Controls.Add(this.dgvClientes);
+            this.roundedPanel4.Controls.Add(this.btnBuscarProducto);
+            this.roundedPanel4.Controls.Add(this.btnAgregarProducto);
+            this.roundedPanel4.Controls.Add(this.txtBuscarProducto);
+            this.roundedPanel4.Controls.Add(this.dgvProductos);
             this.roundedPanel4.Controls.Add(this.label7);
             this.roundedPanel4.Controls.Add(this.dividerLine2);
             this.roundedPanel4.Controls.Add(this.label5);
-            this.roundedPanel4.Controls.Add(this.label6);
             this.roundedPanel4.Location = new System.Drawing.Point(57, 74);
             this.roundedPanel4.Name = "roundedPanel4";
             this.roundedPanel4.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
             this.roundedPanel4.Size = new System.Drawing.Size(1255, 403);
             this.roundedPanel4.TabIndex = 12;
             // 
-            // botonPremium2
+            // btnAgregarProducto
             // 
-            this.botonPremium2.BackColor = System.Drawing.Color.Blue;
-            this.botonPremium2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.botonPremium2.FlatAppearance.BorderSize = 0;
-            this.botonPremium2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botonPremium2.Font = new System.Drawing.Font("Georgia", 9F);
-            this.botonPremium2.ForeColor = System.Drawing.Color.Transparent;
-            this.botonPremium2.Location = new System.Drawing.Point(283, 336);
-            this.botonPremium2.Name = "botonPremium2";
-            this.botonPremium2.Size = new System.Drawing.Size(115, 40);
-            this.botonPremium2.TabIndex = 15;
-            this.botonPremium2.Text = "(+) Agregar";
-            this.botonPremium2.UseVisualStyleBackColor = false;
+            this.btnAgregarProducto.BackColor = System.Drawing.Color.Blue;
+            this.btnAgregarProducto.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAgregarProducto.FlatAppearance.BorderSize = 0;
+            this.btnAgregarProducto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAgregarProducto.Font = new System.Drawing.Font("Georgia", 9F);
+            this.btnAgregarProducto.ForeColor = System.Drawing.Color.Transparent;
+            this.btnAgregarProducto.Location = new System.Drawing.Point(37, 337);
+            this.btnAgregarProducto.Name = "btnAgregarProducto";
+            this.btnAgregarProducto.Size = new System.Drawing.Size(115, 40);
+            this.btnAgregarProducto.TabIndex = 15;
+            this.btnAgregarProducto.Text = "(+) Agregar";
+            this.btnAgregarProducto.UseVisualStyleBackColor = false;
             // 
-            // textBox3
+            // txtBuscarProducto
             // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox3.Location = new System.Drawing.Point(113, 341);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(103, 26);
-            this.textBox3.TabIndex = 14;
+            this.txtBuscarProducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
+            this.txtBuscarProducto.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBuscarProducto.ForeColor = System.Drawing.SystemColors.Info;
+            this.txtBuscarProducto.Location = new System.Drawing.Point(149, 26);
+            this.txtBuscarProducto.Margin = new System.Windows.Forms.Padding(4);
+            this.txtBuscarProducto.Multiline = true;
+            this.txtBuscarProducto.Name = "txtBuscarProducto";
+            this.txtBuscarProducto.Size = new System.Drawing.Size(329, 26);
+            this.txtBuscarProducto.TabIndex = 11;
             // 
-            // label8
+            // dgvProductos
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label8.Location = new System.Drawing.Point(33, 341);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(72, 20);
-            this.label8.TabIndex = 13;
-            this.label8.Text = "Cantidad:";
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox2.Location = new System.Drawing.Point(149, 26);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(329, 26);
-            this.textBox2.TabIndex = 11;
-            // 
-            // dgvClientes
-            // 
-            this.dgvClientes.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
-            this.dgvClientes.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.dgvClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvClientes.GridColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dgvClientes.Location = new System.Drawing.Point(37, 164);
-            this.dgvClientes.Margin = new System.Windows.Forms.Padding(4);
-            this.dgvClientes.Name = "dgvClientes";
-            this.dgvClientes.RowHeadersWidth = 51;
-            this.dgvClientes.Size = new System.Drawing.Size(1180, 141);
-            this.dgvClientes.TabIndex = 12;
+            this.dgvProductos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
+            this.dgvProductos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dgvProductos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvProductos.GridColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dgvProductos.Location = new System.Drawing.Point(37, 164);
+            this.dgvProductos.Margin = new System.Windows.Forms.Padding(4);
+            this.dgvProductos.Name = "dgvProductos";
+            this.dgvProductos.RowHeadersWidth = 51;
+            this.dgvProductos.Size = new System.Drawing.Size(1180, 141);
+            this.dgvProductos.TabIndex = 12;
             // 
             // label7
             // 
@@ -373,28 +318,15 @@
             this.label5.Size = new System.Drawing.Size(0, 23);
             this.label5.TabIndex = 3;
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label6.Location = new System.Drawing.Point(33, 29);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(108, 20);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "Buscar/Escaner";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
-            // 
             // roundedPanel5
             // 
             this.roundedPanel5.BackColor = System.Drawing.Color.Transparent;
             this.roundedPanel5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
             this.roundedPanel5.BorderRadius = 25;
             this.roundedPanel5.BorderSize = 1;
-            this.roundedPanel5.Controls.Add(this.botonPremium6);
-            this.roundedPanel5.Controls.Add(this.botonPremium5);
-            this.roundedPanel5.Controls.Add(this.botonPremium4);
+            this.roundedPanel5.Controls.Add(this.btnVolver_menu);
+            this.roundedPanel5.Controls.Add(this.btnRegistraVenta);
+            this.roundedPanel5.Controls.Add(this.btnLimpiarDetalle);
             this.roundedPanel5.Controls.Add(this.label10);
             this.roundedPanel5.Controls.Add(this.roundedPanel6);
             this.roundedPanel5.Location = new System.Drawing.Point(44, 1023);
@@ -403,35 +335,52 @@
             this.roundedPanel5.Size = new System.Drawing.Size(1370, 552);
             this.roundedPanel5.TabIndex = 19;
             // 
-            // botonPremium5
+            // btnVolver_menu
             // 
-            this.botonPremium5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.botonPremium5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.botonPremium5.FlatAppearance.BorderSize = 0;
-            this.botonPremium5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botonPremium5.Font = new System.Drawing.Font("Georgia", 9F);
-            this.botonPremium5.ForeColor = System.Drawing.Color.Transparent;
-            this.botonPremium5.Location = new System.Drawing.Point(819, 496);
-            this.botonPremium5.Name = "botonPremium5";
-            this.botonPremium5.Size = new System.Drawing.Size(240, 40);
-            this.botonPremium5.TabIndex = 26;
-            this.botonPremium5.Text = "REGISTRAR VENTA";
-            this.botonPremium5.UseVisualStyleBackColor = false;
+            this.btnVolver_menu.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnVolver_menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnVolver_menu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnVolver_menu.FlatAppearance.BorderSize = 0;
+            this.btnVolver_menu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVolver_menu.Font = new System.Drawing.Font("Georgia", 9F);
+            this.btnVolver_menu.ForeColor = System.Drawing.Color.Transparent;
+            this.btnVolver_menu.Location = new System.Drawing.Point(1089, 496);
+            this.btnVolver_menu.Name = "btnVolver_menu";
+            this.btnVolver_menu.Size = new System.Drawing.Size(223, 40);
+            this.btnVolver_menu.TabIndex = 26;
+            this.btnVolver_menu.Text = "VOLVER\r\n";
+            this.btnVolver_menu.UseVisualStyleBackColor = false;
+            this.btnVolver_menu.Click += new System.EventHandler(this.botonPremium6_Click);
             // 
-            // botonPremium4
+            // btnRegistraVenta
             // 
-            this.botonPremium4.BackColor = System.Drawing.Color.Gray;
-            this.botonPremium4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.botonPremium4.FlatAppearance.BorderSize = 0;
-            this.botonPremium4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botonPremium4.Font = new System.Drawing.Font("Georgia", 9F);
-            this.botonPremium4.ForeColor = System.Drawing.Color.Transparent;
-            this.botonPremium4.Location = new System.Drawing.Point(94, 496);
-            this.botonPremium4.Name = "botonPremium4";
-            this.botonPremium4.Size = new System.Drawing.Size(223, 40);
-            this.botonPremium4.TabIndex = 25;
-            this.botonPremium4.Text = "CANCELAR VENTA";
-            this.botonPremium4.UseVisualStyleBackColor = false;
+            this.btnRegistraVenta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnRegistraVenta.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRegistraVenta.FlatAppearance.BorderSize = 0;
+            this.btnRegistraVenta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegistraVenta.Font = new System.Drawing.Font("Georgia", 9F);
+            this.btnRegistraVenta.ForeColor = System.Drawing.Color.Transparent;
+            this.btnRegistraVenta.Location = new System.Drawing.Point(819, 496);
+            this.btnRegistraVenta.Name = "btnRegistraVenta";
+            this.btnRegistraVenta.Size = new System.Drawing.Size(240, 40);
+            this.btnRegistraVenta.TabIndex = 26;
+            this.btnRegistraVenta.Text = "REGISTRAR VENTA";
+            this.btnRegistraVenta.UseVisualStyleBackColor = false;
+            // 
+            // btnLimpiarDetalle
+            // 
+            this.btnLimpiarDetalle.BackColor = System.Drawing.Color.Gray;
+            this.btnLimpiarDetalle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLimpiarDetalle.FlatAppearance.BorderSize = 0;
+            this.btnLimpiarDetalle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLimpiarDetalle.Font = new System.Drawing.Font("Georgia", 9F);
+            this.btnLimpiarDetalle.ForeColor = System.Drawing.Color.Transparent;
+            this.btnLimpiarDetalle.Location = new System.Drawing.Point(94, 496);
+            this.btnLimpiarDetalle.Name = "btnLimpiarDetalle";
+            this.btnLimpiarDetalle.Size = new System.Drawing.Size(223, 40);
+            this.btnLimpiarDetalle.TabIndex = 25;
+            this.btnLimpiarDetalle.Text = "CANCELAR VENTA";
+            this.btnLimpiarDetalle.UseVisualStyleBackColor = false;
             // 
             // label10
             // 
@@ -451,13 +400,13 @@
             this.roundedPanel6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
             this.roundedPanel6.BorderRadius = 25;
             this.roundedPanel6.BorderSize = 1;
-            this.roundedPanel6.Controls.Add(this.textBox9);
-            this.roundedPanel6.Controls.Add(this.textBox8);
+            this.roundedPanel6.Controls.Add(this.txtCambio);
+            this.roundedPanel6.Controls.Add(this.txtMresivido);
             this.roundedPanel6.Controls.Add(this.label19);
             this.roundedPanel6.Controls.Add(this.label18);
             this.roundedPanel6.Controls.Add(this.roundedPanel7);
-            this.roundedPanel6.Controls.Add(this.botonPremium3);
-            this.roundedPanel6.Controls.Add(this.dataGridView1);
+            this.roundedPanel6.Controls.Add(this.btnQuitar);
+            this.roundedPanel6.Controls.Add(this.dgvDetalles);
             this.roundedPanel6.Controls.Add(this.dividerLine1);
             this.roundedPanel6.Controls.Add(this.label13);
             this.roundedPanel6.Controls.Add(this.label14);
@@ -467,29 +416,29 @@
             this.roundedPanel6.Size = new System.Drawing.Size(1255, 403);
             this.roundedPanel6.TabIndex = 12;
             // 
-            // textBox9
+            // txtCambio
             // 
-            this.textBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.textBox9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.textBox9.Location = new System.Drawing.Point(985, 359);
-            this.textBox9.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox9.Multiline = true;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(88, 23);
-            this.textBox9.TabIndex = 24;
+            this.txtCambio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.txtCambio.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCambio.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.txtCambio.Location = new System.Drawing.Point(985, 359);
+            this.txtCambio.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCambio.Multiline = true;
+            this.txtCambio.Name = "txtCambio";
+            this.txtCambio.Size = new System.Drawing.Size(88, 23);
+            this.txtCambio.TabIndex = 24;
             // 
-            // textBox8
+            // txtMresivido
             // 
-            this.textBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
-            this.textBox8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox8.Location = new System.Drawing.Point(985, 321);
-            this.textBox8.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(88, 23);
-            this.textBox8.TabIndex = 23;
+            this.txtMresivido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
+            this.txtMresivido.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMresivido.ForeColor = System.Drawing.SystemColors.Info;
+            this.txtMresivido.Location = new System.Drawing.Point(985, 321);
+            this.txtMresivido.Margin = new System.Windows.Forms.Padding(4);
+            this.txtMresivido.Multiline = true;
+            this.txtMresivido.Name = "txtMresivido";
+            this.txtMresivido.Size = new System.Drawing.Size(88, 23);
+            this.txtMresivido.TabIndex = 23;
             // 
             // label19
             // 
@@ -521,31 +470,31 @@
             this.roundedPanel7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
             this.roundedPanel7.BorderRadius = 25;
             this.roundedPanel7.BorderSize = 1;
-            this.roundedPanel7.Controls.Add(this.textBox7);
+            this.roundedPanel7.Controls.Add(this.txtTotal);
             this.roundedPanel7.Controls.Add(this.label17);
-            this.roundedPanel7.Controls.Add(this.textBox6);
-            this.roundedPanel7.Controls.Add(this.textBox5);
+            this.roundedPanel7.Controls.Add(this.txtIva);
+            this.roundedPanel7.Controls.Add(this.txtSubTotal);
             this.roundedPanel7.Controls.Add(this.label16);
             this.roundedPanel7.Controls.Add(this.label15);
             this.roundedPanel7.Controls.Add(this.label12);
-            this.roundedPanel7.Controls.Add(this.comboBox1);
+            this.roundedPanel7.Controls.Add(this.cboMetodo_pago);
             this.roundedPanel7.Location = new System.Drawing.Point(850, 96);
             this.roundedPanel7.Name = "roundedPanel7";
             this.roundedPanel7.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
             this.roundedPanel7.Size = new System.Drawing.Size(372, 209);
             this.roundedPanel7.TabIndex = 16;
             // 
-            // textBox7
+            // txtTotal
             // 
-            this.textBox7.BackColor = System.Drawing.Color.Yellow;
-            this.textBox7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.ForeColor = System.Drawing.SystemColors.MenuText;
-            this.textBox7.Location = new System.Drawing.Point(218, 158);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(134, 23);
-            this.textBox7.TabIndex = 20;
+            this.txtTotal.BackColor = System.Drawing.Color.Yellow;
+            this.txtTotal.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTotal.ForeColor = System.Drawing.SystemColors.MenuText;
+            this.txtTotal.Location = new System.Drawing.Point(218, 158);
+            this.txtTotal.Margin = new System.Windows.Forms.Padding(4);
+            this.txtTotal.Multiline = true;
+            this.txtTotal.Name = "txtTotal";
+            this.txtTotal.Size = new System.Drawing.Size(134, 23);
+            this.txtTotal.TabIndex = 20;
             // 
             // label17
             // 
@@ -559,29 +508,29 @@
             this.label17.TabIndex = 19;
             this.label17.Text = "TOTAL FINAL:";
             // 
-            // textBox6
+            // txtIva
             // 
-            this.textBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
-            this.textBox6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox6.Location = new System.Drawing.Point(218, 115);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(134, 23);
-            this.textBox6.TabIndex = 18;
+            this.txtIva.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
+            this.txtIva.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtIva.ForeColor = System.Drawing.SystemColors.Info;
+            this.txtIva.Location = new System.Drawing.Point(218, 115);
+            this.txtIva.Margin = new System.Windows.Forms.Padding(4);
+            this.txtIva.Multiline = true;
+            this.txtIva.Name = "txtIva";
+            this.txtIva.Size = new System.Drawing.Size(134, 23);
+            this.txtIva.TabIndex = 18;
             // 
-            // textBox5
+            // txtSubTotal
             // 
-            this.textBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
-            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.ForeColor = System.Drawing.SystemColors.Info;
-            this.textBox5.Location = new System.Drawing.Point(218, 69);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(134, 23);
-            this.textBox5.TabIndex = 17;
+            this.txtSubTotal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
+            this.txtSubTotal.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSubTotal.ForeColor = System.Drawing.SystemColors.Info;
+            this.txtSubTotal.Location = new System.Drawing.Point(218, 69);
+            this.txtSubTotal.Margin = new System.Windows.Forms.Padding(4);
+            this.txtSubTotal.Multiline = true;
+            this.txtSubTotal.Name = "txtSubTotal";
+            this.txtSubTotal.Size = new System.Drawing.Size(134, 23);
+            this.txtSubTotal.TabIndex = 17;
             // 
             // label16
             // 
@@ -619,43 +568,43 @@
             this.label12.TabIndex = 14;
             this.label12.Text = "Método de pago:";
             // 
-            // comboBox1
+            // cboMetodo_pago
             // 
-            this.comboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
-            this.comboBox1.Font = new System.Drawing.Font("Segoe UI", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(155, 30);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(197, 23);
-            this.comboBox1.TabIndex = 0;
+            this.cboMetodo_pago.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
+            this.cboMetodo_pago.Font = new System.Drawing.Font("Segoe UI", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cboMetodo_pago.FormattingEnabled = true;
+            this.cboMetodo_pago.Location = new System.Drawing.Point(155, 30);
+            this.cboMetodo_pago.Name = "cboMetodo_pago";
+            this.cboMetodo_pago.Size = new System.Drawing.Size(197, 23);
+            this.cboMetodo_pago.TabIndex = 0;
             // 
-            // botonPremium3
+            // btnQuitar
             // 
-            this.botonPremium3.BackColor = System.Drawing.Color.Red;
-            this.botonPremium3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.botonPremium3.FlatAppearance.BorderSize = 0;
-            this.botonPremium3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botonPremium3.Font = new System.Drawing.Font("Georgia", 9F);
-            this.botonPremium3.ForeColor = System.Drawing.Color.Transparent;
-            this.botonPremium3.Location = new System.Drawing.Point(37, 327);
-            this.botonPremium3.Name = "botonPremium3";
-            this.botonPremium3.Size = new System.Drawing.Size(115, 40);
-            this.botonPremium3.TabIndex = 15;
-            this.botonPremium3.Text = "(-) Quitar";
-            this.botonPremium3.UseVisualStyleBackColor = false;
+            this.btnQuitar.BackColor = System.Drawing.Color.Red;
+            this.btnQuitar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnQuitar.FlatAppearance.BorderSize = 0;
+            this.btnQuitar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnQuitar.Font = new System.Drawing.Font("Georgia", 9F);
+            this.btnQuitar.ForeColor = System.Drawing.Color.Transparent;
+            this.btnQuitar.Location = new System.Drawing.Point(37, 327);
+            this.btnQuitar.Name = "btnQuitar";
+            this.btnQuitar.Size = new System.Drawing.Size(115, 40);
+            this.btnQuitar.TabIndex = 15;
+            this.btnQuitar.Text = "(-) Quitar";
+            this.btnQuitar.UseVisualStyleBackColor = false;
             // 
-            // dataGridView1
+            // dgvDetalles
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
-            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.GridColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dataGridView1.Location = new System.Drawing.Point(37, 96);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(791, 209);
-            this.dataGridView1.TabIndex = 12;
+            this.dgvDetalles.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
+            this.dgvDetalles.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dgvDetalles.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDetalles.GridColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dgvDetalles.Location = new System.Drawing.Point(37, 96);
+            this.dgvDetalles.Margin = new System.Windows.Forms.Padding(4);
+            this.dgvDetalles.Name = "dgvDetalles";
+            this.dgvDetalles.RowHeadersWidth = 51;
+            this.dgvDetalles.Size = new System.Drawing.Size(791, 209);
+            this.dgvDetalles.TabIndex = 12;
             // 
             // dividerLine1
             // 
@@ -692,22 +641,35 @@
             this.label14.TabIndex = 9;
             this.label14.Text = "Producto en Carrito";
             // 
-            // botonPremium6
+            // label3
             // 
-            this.botonPremium6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.botonPremium6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.botonPremium6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.botonPremium6.FlatAppearance.BorderSize = 0;
-            this.botonPremium6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botonPremium6.Font = new System.Drawing.Font("Georgia", 9F);
-            this.botonPremium6.ForeColor = System.Drawing.Color.Transparent;
-            this.botonPremium6.Location = new System.Drawing.Point(1089, 496);
-            this.botonPremium6.Name = "botonPremium6";
-            this.botonPremium6.Size = new System.Drawing.Size(223, 40);
-            this.botonPremium6.TabIndex = 26;
-            this.botonPremium6.Text = "VOLVER\r\n";
-            this.botonPremium6.UseVisualStyleBackColor = false;
-            this.botonPremium6.Click += new System.EventHandler(this.botonPremium6_Click);
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label3.Location = new System.Drawing.Point(33, 158);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(58, 23);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Fecha:";
+            // 
+            // dtpFecha
+            // 
+            this.dtpFecha.Location = new System.Drawing.Point(99, 158);
+            this.dtpFecha.Name = "dtpFecha";
+            this.dtpFecha.Size = new System.Drawing.Size(223, 22);
+            this.dtpFecha.TabIndex = 13;
+            // 
+            // btnBuscarProducto
+            // 
+            this.btnBuscarProducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnBuscarProducto.Font = new System.Drawing.Font("Segoe UI Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBuscarProducto.Location = new System.Drawing.Point(48, 24);
+            this.btnBuscarProducto.Name = "btnBuscarProducto";
+            this.btnBuscarProducto.Size = new System.Drawing.Size(78, 33);
+            this.btnBuscarProducto.TabIndex = 16;
+            this.btnBuscarProducto.Text = "Buscar";
+            this.btnBuscarProducto.UseVisualStyleBackColor = false;
             // 
             // frmVenta
             // 
@@ -742,14 +704,14 @@
             this.roundedPanel3.PerformLayout();
             this.roundedPanel4.ResumeLayout(false);
             this.roundedPanel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).EndInit();
             this.roundedPanel5.ResumeLayout(false);
             this.roundedPanel5.PerformLayout();
             this.roundedPanel6.ResumeLayout(false);
             this.roundedPanel6.PerformLayout();
             this.roundedPanel7.ResumeLayout(false);
             this.roundedPanel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvDetalles)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -762,47 +724,45 @@
         private System.Windows.Forms.Label label1;
         private RoundedPanel roundedPanel1;
         private System.Windows.Forms.Label label2;
-        private BotonPremium botonPremium1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtNombreCompleto;
+        private BotonPremium btnNuevoCliente;
         private RoundedPanel roundedPanel2;
         private System.Windows.Forms.Label label9;
         private RoundedPanel roundedPanel3;
         private System.Windows.Forms.Label label4;
         private RoundedPanel roundedPanel4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private DividerLine dividerLine2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.DataGridView dgvClientes;
-        private BotonPremium botonPremium2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtBuscarProducto;
+        private System.Windows.Forms.DataGridView dgvProductos;
+        private BotonPremium btnAgregarProducto;
         private RoundedPanel roundedPanel5;
         private System.Windows.Forms.Label label10;
         private RoundedPanel roundedPanel6;
-        private BotonPremium botonPremium3;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private BotonPremium btnQuitar;
+        private System.Windows.Forms.DataGridView dgvDetalles;
         private DividerLine dividerLine1;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private RoundedPanel roundedPanel7;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cboMetodo_pago;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtTotal;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private BotonPremium botonPremium5;
-        private BotonPremium botonPremium4;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private BotonPremium botonPremium6;
+        private System.Windows.Forms.TextBox txtIva;
+        private System.Windows.Forms.TextBox txtSubTotal;
+        private BotonPremium btnRegistraVenta;
+        private BotonPremium btnLimpiarDetalle;
+        private System.Windows.Forms.TextBox txtCambio;
+        private System.Windows.Forms.TextBox txtMresivido;
+        private BotonPremium btnVolver_menu;
+        private System.Windows.Forms.ComboBox cboCliente;
+        private System.Windows.Forms.DateTimePicker dtpFecha;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button btnBuscarProducto;
     }
 }
