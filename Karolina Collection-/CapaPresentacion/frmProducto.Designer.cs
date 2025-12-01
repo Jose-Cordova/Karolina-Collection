@@ -620,6 +620,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
             this.ClientSize = new System.Drawing.Size(1736, 784);
             this.Controls.Add(this.roundedPanel1);
@@ -629,6 +630,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "frmProducto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_Producto";
             this.Load += new System.EventHandler(this.frmProducto_Load);
             this.roundedPanel1.ResumeLayout(false);

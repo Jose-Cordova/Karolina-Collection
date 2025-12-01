@@ -21,5 +21,15 @@ namespace Karolina_Collection_.CapaPresentacion
         {
 
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void botonPremium6_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

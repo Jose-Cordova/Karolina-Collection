@@ -30,30 +30,30 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.Karolins = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.roundedPanel1 = new RoundedPanel();
             this.roundedPanel3 = new RoundedPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.roundedPanel2 = new RoundedPanel();
             this.dividerLine7 = new DividerLine();
-            this.btnVolver = new BotonPremium();
-            this.btnCierre_caja = new BotonPremium();
             this.dividerLine6 = new DividerLine();
-            this.btnReportes = new BotonPremium();
             this.dividerLine5 = new DividerLine();
-            this.btnInventario = new BotonPremium();
-            this.btnProducto = new BotonPremium();
             this.dividerLine2 = new DividerLine();
             this.dividerLine3 = new DividerLine();
-            this.btnCliente = new BotonPremium();
-            this.btnVenta_rapida = new BotonPremium();
             this.dividerLine4 = new DividerLine();
             this.dividerLine1 = new DividerLine();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnVolver = new BotonPremium();
+            this.btnCierre_caja = new BotonPremium();
+            this.btnReportes = new BotonPremium();
+            this.btnInventario = new BotonPremium();
+            this.btnProducto = new BotonPremium();
+            this.btnCliente = new BotonPremium();
+            this.btnVenta_rapida = new BotonPremium();
             this.roundedPanel1.SuspendLayout();
             this.roundedPanel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.roundedPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -79,15 +79,6 @@
             this.Karolins.TabIndex = 3;
             this.Karolins.Text = "KAROLINA COLLECTION";
             this.Karolins.Click += new System.EventHandler(this.Karolins_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Karolina_Collection_.Properties.Resources.icons8_corona_48;
-            this.pictureBox2.Location = new System.Drawing.Point(25, 8);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(55, 51);
-            this.pictureBox2.TabIndex = 9;
-            this.pictureBox2.TabStop = false;
             // 
             // roundedPanel1
             // 
@@ -117,15 +108,6 @@
             this.roundedPanel3.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
             this.roundedPanel3.Size = new System.Drawing.Size(653, 352);
             this.roundedPanel3.TabIndex = 8;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Karolina_Collection_.Properties.Resources.Imagen_de_WhatsApp_2025_11_24_a_las_21_45_15_e1b44502_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(21, -31);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(571, 339);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // roundedPanel2
             // 
@@ -164,6 +146,92 @@
             this.dividerLine7.TabIndex = 10;
             this.dividerLine7.Text = "dividerLine7";
             // 
+            // dividerLine6
+            // 
+            this.dividerLine6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(20)))), ((int)(((byte)(24)))));
+            this.dividerLine6.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(30)))), ((int)(((byte)(38)))));
+            this.dividerLine6.LineThickness = 1;
+            this.dividerLine6.Location = new System.Drawing.Point(5, 261);
+            this.dividerLine6.Name = "dividerLine6";
+            this.dividerLine6.Size = new System.Drawing.Size(297, 10);
+            this.dividerLine6.TabIndex = 9;
+            this.dividerLine6.Text = "dividerLine6";
+            // 
+            // dividerLine5
+            // 
+            this.dividerLine5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(20)))), ((int)(((byte)(24)))));
+            this.dividerLine5.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(30)))), ((int)(((byte)(38)))));
+            this.dividerLine5.LineThickness = 1;
+            this.dividerLine5.Location = new System.Drawing.Point(5, 207);
+            this.dividerLine5.Name = "dividerLine5";
+            this.dividerLine5.Size = new System.Drawing.Size(298, 10);
+            this.dividerLine5.TabIndex = 7;
+            this.dividerLine5.Text = "dividerLine5";
+            this.dividerLine5.Click += new System.EventHandler(this.dividerLine5_Click);
+            // 
+            // dividerLine2
+            // 
+            this.dividerLine2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(20)))), ((int)(((byte)(24)))));
+            this.dividerLine2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(30)))), ((int)(((byte)(38)))));
+            this.dividerLine2.LineThickness = 1;
+            this.dividerLine2.Location = new System.Drawing.Point(3, 44);
+            this.dividerLine2.Name = "dividerLine2";
+            this.dividerLine2.Size = new System.Drawing.Size(296, 10);
+            this.dividerLine2.TabIndex = 1;
+            this.dividerLine2.Text = "dividerLine2";
+            // 
+            // dividerLine3
+            // 
+            this.dividerLine3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(20)))), ((int)(((byte)(24)))));
+            this.dividerLine3.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(30)))), ((int)(((byte)(38)))));
+            this.dividerLine3.LineThickness = 1;
+            this.dividerLine3.Location = new System.Drawing.Point(4, 99);
+            this.dividerLine3.Name = "dividerLine3";
+            this.dividerLine3.Size = new System.Drawing.Size(297, 10);
+            this.dividerLine3.TabIndex = 3;
+            this.dividerLine3.Text = "dividerLine3";
+            // 
+            // dividerLine4
+            // 
+            this.dividerLine4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(20)))), ((int)(((byte)(24)))));
+            this.dividerLine4.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(30)))), ((int)(((byte)(38)))));
+            this.dividerLine4.LineThickness = 1;
+            this.dividerLine4.Location = new System.Drawing.Point(3, 153);
+            this.dividerLine4.Name = "dividerLine4";
+            this.dividerLine4.Size = new System.Drawing.Size(299, 10);
+            this.dividerLine4.TabIndex = 5;
+            this.dividerLine4.Text = "dividerLine4";
+            this.dividerLine4.Click += new System.EventHandler(this.dividerLine4_Click);
+            // 
+            // dividerLine1
+            // 
+            this.dividerLine1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.dividerLine1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(30)))), ((int)(((byte)(38)))));
+            this.dividerLine1.LineThickness = 1;
+            this.dividerLine1.Location = new System.Drawing.Point(3, 56);
+            this.dividerLine1.Name = "dividerLine1";
+            this.dividerLine1.Size = new System.Drawing.Size(1202, 25);
+            this.dividerLine1.TabIndex = 5;
+            this.dividerLine1.Text = "dividerLine1";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Karolina_Collection_.Properties.Resources.icons8_corona_48;
+            this.pictureBox2.Location = new System.Drawing.Point(25, 8);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(55, 51);
+            this.pictureBox2.TabIndex = 9;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Karolina_Collection_.Properties.Resources.Imagen_de_WhatsApp_2025_11_24_a_las_21_45_15_e1b44502_removebg_preview;
+            this.pictureBox1.Location = new System.Drawing.Point(21, -31);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(571, 339);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // btnVolver
             // 
             this.btnVolver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
@@ -201,17 +269,6 @@
             this.btnCierre_caja.Text = "Cerra Caja";
             this.btnCierre_caja.UseVisualStyleBackColor = false;
             // 
-            // dividerLine6
-            // 
-            this.dividerLine6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(20)))), ((int)(((byte)(24)))));
-            this.dividerLine6.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(30)))), ((int)(((byte)(38)))));
-            this.dividerLine6.LineThickness = 1;
-            this.dividerLine6.Location = new System.Drawing.Point(5, 261);
-            this.dividerLine6.Name = "dividerLine6";
-            this.dividerLine6.Size = new System.Drawing.Size(297, 10);
-            this.dividerLine6.TabIndex = 9;
-            this.dividerLine6.Text = "dividerLine6";
-            // 
             // btnReportes
             // 
             this.btnReportes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
@@ -229,18 +286,6 @@
             this.btnReportes.TabIndex = 8;
             this.btnReportes.Text = "Reportes";
             this.btnReportes.UseVisualStyleBackColor = false;
-            // 
-            // dividerLine5
-            // 
-            this.dividerLine5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(20)))), ((int)(((byte)(24)))));
-            this.dividerLine5.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(30)))), ((int)(((byte)(38)))));
-            this.dividerLine5.LineThickness = 1;
-            this.dividerLine5.Location = new System.Drawing.Point(5, 207);
-            this.dividerLine5.Name = "dividerLine5";
-            this.dividerLine5.Size = new System.Drawing.Size(298, 10);
-            this.dividerLine5.TabIndex = 7;
-            this.dividerLine5.Text = "dividerLine5";
-            this.dividerLine5.Click += new System.EventHandler(this.dividerLine5_Click);
             // 
             // btnInventario
             // 
@@ -280,28 +325,6 @@
             this.btnProducto.UseVisualStyleBackColor = false;
             this.btnProducto.Click += new System.EventHandler(this.botonPremium2_Click_1);
             // 
-            // dividerLine2
-            // 
-            this.dividerLine2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(20)))), ((int)(((byte)(24)))));
-            this.dividerLine2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(30)))), ((int)(((byte)(38)))));
-            this.dividerLine2.LineThickness = 1;
-            this.dividerLine2.Location = new System.Drawing.Point(3, 44);
-            this.dividerLine2.Name = "dividerLine2";
-            this.dividerLine2.Size = new System.Drawing.Size(296, 10);
-            this.dividerLine2.TabIndex = 1;
-            this.dividerLine2.Text = "dividerLine2";
-            // 
-            // dividerLine3
-            // 
-            this.dividerLine3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(20)))), ((int)(((byte)(24)))));
-            this.dividerLine3.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(30)))), ((int)(((byte)(38)))));
-            this.dividerLine3.LineThickness = 1;
-            this.dividerLine3.Location = new System.Drawing.Point(4, 99);
-            this.dividerLine3.Name = "dividerLine3";
-            this.dividerLine3.Size = new System.Drawing.Size(297, 10);
-            this.dividerLine3.TabIndex = 3;
-            this.dividerLine3.Text = "dividerLine3";
-            // 
             // btnCliente
             // 
             this.btnCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
@@ -340,33 +363,11 @@
             this.btnVenta_rapida.UseVisualStyleBackColor = false;
             this.btnVenta_rapida.Click += new System.EventHandler(this.botonPremium1_Click);
             // 
-            // dividerLine4
-            // 
-            this.dividerLine4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(20)))), ((int)(((byte)(24)))));
-            this.dividerLine4.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(30)))), ((int)(((byte)(38)))));
-            this.dividerLine4.LineThickness = 1;
-            this.dividerLine4.Location = new System.Drawing.Point(3, 153);
-            this.dividerLine4.Name = "dividerLine4";
-            this.dividerLine4.Size = new System.Drawing.Size(299, 10);
-            this.dividerLine4.TabIndex = 5;
-            this.dividerLine4.Text = "dividerLine4";
-            this.dividerLine4.Click += new System.EventHandler(this.dividerLine4_Click);
-            // 
-            // dividerLine1
-            // 
-            this.dividerLine1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.dividerLine1.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(30)))), ((int)(((byte)(38)))));
-            this.dividerLine1.LineThickness = 1;
-            this.dividerLine1.Location = new System.Drawing.Point(3, 56);
-            this.dividerLine1.Name = "dividerLine1";
-            this.dividerLine1.Size = new System.Drawing.Size(1202, 25);
-            this.dividerLine1.TabIndex = 5;
-            this.dividerLine1.Text = "dividerLine1";
-            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
             this.ClientSize = new System.Drawing.Size(1295, 654);
             this.Controls.Add(this.pictureBox2);
@@ -378,13 +379,14 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "Inicio";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.roundedPanel1.ResumeLayout(false);
             this.roundedPanel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.roundedPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
