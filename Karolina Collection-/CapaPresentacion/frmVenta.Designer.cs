@@ -73,6 +73,7 @@
             this.dividerLine1 = new DividerLine();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.roundedPanel1.SuspendLayout();
             this.roundedPanel2.SuspendLayout();
@@ -83,6 +84,7 @@
             this.roundedPanel6.SuspendLayout();
             this.roundedPanel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalles)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox2
@@ -167,6 +169,7 @@
             this.roundedPanel2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
             this.roundedPanel2.BorderRadius = 25;
             this.roundedPanel2.BorderSize = 1;
+            this.roundedPanel2.Controls.Add(this.pictureBox1);
             this.roundedPanel2.Controls.Add(this.dtpFecha);
             this.roundedPanel2.Controls.Add(this.btnNuevoCliente);
             this.roundedPanel2.Controls.Add(this.label3);
@@ -665,6 +668,14 @@
             this.label14.TabIndex = 9;
             this.label14.Text = "Producto en Carrito";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(185, 107);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.TabIndex = 14;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmVenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -707,6 +718,7 @@
             this.roundedPanel7.ResumeLayout(false);
             this.roundedPanel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalles)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -759,5 +771,6 @@
         private System.Windows.Forms.DateTimePicker dtpFecha;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnBuscarProducto;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
