@@ -33,9 +33,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.roundedPanel1 = new RoundedPanel();
             this.label9 = new System.Windows.Forms.Label();
-            this.btnNuevoCliente = new BotonPremium();
             this.roundedPanel2 = new RoundedPanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dtpFecha = new System.Windows.Forms.DateTimePicker();
+            this.btnNuevoCliente = new BotonPremium();
             this.label3 = new System.Windows.Forms.Label();
             this.cboCliente = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -73,10 +74,11 @@
             this.dividerLine1 = new DividerLine();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.roundedPanel1.SuspendLayout();
             this.roundedPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.roundedPanel3.SuspendLayout();
             this.roundedPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).BeginInit();
@@ -84,7 +86,7 @@
             this.roundedPanel6.SuspendLayout();
             this.roundedPanel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalles)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox2
@@ -128,7 +130,7 @@
             this.roundedPanel1.Controls.Add(this.label9);
             this.roundedPanel1.Controls.Add(this.roundedPanel2);
             this.roundedPanel1.Location = new System.Drawing.Point(33, 67);
-            this.roundedPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.roundedPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.roundedPanel1.Name = "roundedPanel1";
             this.roundedPanel1.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
             this.roundedPanel1.Size = new System.Drawing.Size(1028, 299);
@@ -146,6 +148,43 @@
             this.label9.TabIndex = 15;
             this.label9.Text = "1. DATOS CLIENTES";
             // 
+            // roundedPanel2
+            // 
+            this.roundedPanel2.BackColor = System.Drawing.Color.Transparent;
+            this.roundedPanel2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
+            this.roundedPanel2.BorderRadius = 25;
+            this.roundedPanel2.BorderSize = 1;
+            this.roundedPanel2.Controls.Add(this.pictureBox3);
+            this.roundedPanel2.Controls.Add(this.pictureBox1);
+            this.roundedPanel2.Controls.Add(this.dtpFecha);
+            this.roundedPanel2.Controls.Add(this.btnNuevoCliente);
+            this.roundedPanel2.Controls.Add(this.label3);
+            this.roundedPanel2.Controls.Add(this.cboCliente);
+            this.roundedPanel2.Controls.Add(this.label2);
+            this.roundedPanel2.Location = new System.Drawing.Point(43, 60);
+            this.roundedPanel2.Margin = new System.Windows.Forms.Padding(2);
+            this.roundedPanel2.Name = "roundedPanel2";
+            this.roundedPanel2.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.roundedPanel2.Size = new System.Drawing.Size(941, 197);
+            this.roundedPanel2.TabIndex = 12;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(185, 107);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.TabIndex = 14;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // dtpFecha
+            // 
+            this.dtpFecha.Location = new System.Drawing.Point(74, 128);
+            this.dtpFecha.Margin = new System.Windows.Forms.Padding(2);
+            this.dtpFecha.Name = "dtpFecha";
+            this.dtpFecha.Size = new System.Drawing.Size(168, 20);
+            this.dtpFecha.TabIndex = 13;
+            // 
             // btnNuevoCliente
             // 
             this.btnNuevoCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
@@ -155,40 +194,13 @@
             this.btnNuevoCliente.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNuevoCliente.ForeColor = System.Drawing.Color.White;
             this.btnNuevoCliente.Location = new System.Drawing.Point(394, 39);
-            this.btnNuevoCliente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnNuevoCliente.Margin = new System.Windows.Forms.Padding(2);
             this.btnNuevoCliente.Name = "btnNuevoCliente";
             this.btnNuevoCliente.Size = new System.Drawing.Size(174, 34);
             this.btnNuevoCliente.TabIndex = 11;
             this.btnNuevoCliente.Text = "Nuevo";
             this.btnNuevoCliente.UseVisualStyleBackColor = false;
             this.btnNuevoCliente.Click += new System.EventHandler(this.btnNuevoCliente_Click);
-            // 
-            // roundedPanel2
-            // 
-            this.roundedPanel2.BackColor = System.Drawing.Color.Transparent;
-            this.roundedPanel2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.roundedPanel2.BorderRadius = 25;
-            this.roundedPanel2.BorderSize = 1;
-            this.roundedPanel2.Controls.Add(this.pictureBox1);
-            this.roundedPanel2.Controls.Add(this.dtpFecha);
-            this.roundedPanel2.Controls.Add(this.btnNuevoCliente);
-            this.roundedPanel2.Controls.Add(this.label3);
-            this.roundedPanel2.Controls.Add(this.cboCliente);
-            this.roundedPanel2.Controls.Add(this.label2);
-            this.roundedPanel2.Location = new System.Drawing.Point(43, 60);
-            this.roundedPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.roundedPanel2.Name = "roundedPanel2";
-            this.roundedPanel2.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.roundedPanel2.Size = new System.Drawing.Size(941, 197);
-            this.roundedPanel2.TabIndex = 12;
-            // 
-            // dtpFecha
-            // 
-            this.dtpFecha.Location = new System.Drawing.Point(74, 128);
-            this.dtpFecha.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.dtpFecha.Name = "dtpFecha";
-            this.dtpFecha.Size = new System.Drawing.Size(168, 20);
-            this.dtpFecha.TabIndex = 13;
             // 
             // label3
             // 
@@ -206,7 +218,7 @@
             this.cboCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
             this.cboCliente.FormattingEnabled = true;
             this.cboCliente.Location = new System.Drawing.Point(81, 52);
-            this.cboCliente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cboCliente.Margin = new System.Windows.Forms.Padding(2);
             this.cboCliente.Name = "cboCliente";
             this.cboCliente.Size = new System.Drawing.Size(270, 21);
             this.cboCliente.TabIndex = 11;
@@ -231,7 +243,7 @@
             this.roundedPanel3.Controls.Add(this.label4);
             this.roundedPanel3.Controls.Add(this.roundedPanel4);
             this.roundedPanel3.Location = new System.Drawing.Point(33, 392);
-            this.roundedPanel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.roundedPanel3.Margin = new System.Windows.Forms.Padding(2);
             this.roundedPanel3.Name = "roundedPanel3";
             this.roundedPanel3.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
             this.roundedPanel3.Size = new System.Drawing.Size(1028, 407);
@@ -263,7 +275,7 @@
             this.roundedPanel4.Controls.Add(this.dividerLine2);
             this.roundedPanel4.Controls.Add(this.label5);
             this.roundedPanel4.Location = new System.Drawing.Point(43, 60);
-            this.roundedPanel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.roundedPanel4.Margin = new System.Windows.Forms.Padding(2);
             this.roundedPanel4.Name = "roundedPanel4";
             this.roundedPanel4.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
             this.roundedPanel4.Size = new System.Drawing.Size(941, 327);
@@ -274,7 +286,7 @@
             this.btnBuscarProducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnBuscarProducto.Font = new System.Drawing.Font("Segoe UI Black", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscarProducto.Location = new System.Drawing.Point(36, 20);
-            this.btnBuscarProducto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBuscarProducto.Margin = new System.Windows.Forms.Padding(2);
             this.btnBuscarProducto.Name = "btnBuscarProducto";
             this.btnBuscarProducto.Size = new System.Drawing.Size(58, 27);
             this.btnBuscarProducto.TabIndex = 16;
@@ -290,7 +302,7 @@
             this.btnAgregarProducto.Font = new System.Drawing.Font("Georgia", 9F);
             this.btnAgregarProducto.ForeColor = System.Drawing.Color.Transparent;
             this.btnAgregarProducto.Location = new System.Drawing.Point(28, 274);
-            this.btnAgregarProducto.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAgregarProducto.Margin = new System.Windows.Forms.Padding(2);
             this.btnAgregarProducto.Name = "btnAgregarProducto";
             this.btnAgregarProducto.Size = new System.Drawing.Size(86, 32);
             this.btnAgregarProducto.TabIndex = 15;
@@ -364,7 +376,7 @@
             this.roundedPanel5.Controls.Add(this.label10);
             this.roundedPanel5.Controls.Add(this.roundedPanel6);
             this.roundedPanel5.Location = new System.Drawing.Point(33, 831);
-            this.roundedPanel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.roundedPanel5.Margin = new System.Windows.Forms.Padding(2);
             this.roundedPanel5.Name = "roundedPanel5";
             this.roundedPanel5.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
             this.roundedPanel5.Size = new System.Drawing.Size(1028, 448);
@@ -380,7 +392,7 @@
             this.btnVolver_menu.Font = new System.Drawing.Font("Georgia", 9F);
             this.btnVolver_menu.ForeColor = System.Drawing.Color.Transparent;
             this.btnVolver_menu.Location = new System.Drawing.Point(817, 403);
-            this.btnVolver_menu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnVolver_menu.Margin = new System.Windows.Forms.Padding(2);
             this.btnVolver_menu.Name = "btnVolver_menu";
             this.btnVolver_menu.Size = new System.Drawing.Size(167, 32);
             this.btnVolver_menu.TabIndex = 26;
@@ -397,7 +409,7 @@
             this.btnRegistraVenta.Font = new System.Drawing.Font("Georgia", 9F);
             this.btnRegistraVenta.ForeColor = System.Drawing.Color.Transparent;
             this.btnRegistraVenta.Location = new System.Drawing.Point(614, 403);
-            this.btnRegistraVenta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRegistraVenta.Margin = new System.Windows.Forms.Padding(2);
             this.btnRegistraVenta.Name = "btnRegistraVenta";
             this.btnRegistraVenta.Size = new System.Drawing.Size(180, 32);
             this.btnRegistraVenta.TabIndex = 26;
@@ -413,7 +425,7 @@
             this.btnLimpiarDetalle.Font = new System.Drawing.Font("Georgia", 9F);
             this.btnLimpiarDetalle.ForeColor = System.Drawing.Color.Transparent;
             this.btnLimpiarDetalle.Location = new System.Drawing.Point(70, 403);
-            this.btnLimpiarDetalle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLimpiarDetalle.Margin = new System.Windows.Forms.Padding(2);
             this.btnLimpiarDetalle.Name = "btnLimpiarDetalle";
             this.btnLimpiarDetalle.Size = new System.Drawing.Size(167, 32);
             this.btnLimpiarDetalle.TabIndex = 25;
@@ -449,7 +461,7 @@
             this.roundedPanel6.Controls.Add(this.label13);
             this.roundedPanel6.Controls.Add(this.label14);
             this.roundedPanel6.Location = new System.Drawing.Point(43, 60);
-            this.roundedPanel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.roundedPanel6.Margin = new System.Windows.Forms.Padding(2);
             this.roundedPanel6.Name = "roundedPanel6";
             this.roundedPanel6.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
             this.roundedPanel6.Size = new System.Drawing.Size(941, 327);
@@ -514,7 +526,7 @@
             this.roundedPanel7.Controls.Add(this.label12);
             this.roundedPanel7.Controls.Add(this.cboMetodo_pago);
             this.roundedPanel7.Location = new System.Drawing.Point(638, 78);
-            this.roundedPanel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.roundedPanel7.Margin = new System.Windows.Forms.Padding(2);
             this.roundedPanel7.Name = "roundedPanel7";
             this.roundedPanel7.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
             this.roundedPanel7.Size = new System.Drawing.Size(279, 170);
@@ -603,7 +615,7 @@
             this.cboMetodo_pago.Font = new System.Drawing.Font("Segoe UI", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboMetodo_pago.FormattingEnabled = true;
             this.cboMetodo_pago.Location = new System.Drawing.Point(116, 24);
-            this.cboMetodo_pago.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cboMetodo_pago.Margin = new System.Windows.Forms.Padding(2);
             this.cboMetodo_pago.Name = "cboMetodo_pago";
             this.cboMetodo_pago.Size = new System.Drawing.Size(149, 20);
             this.cboMetodo_pago.TabIndex = 0;
@@ -617,7 +629,7 @@
             this.btnQuitar.Font = new System.Drawing.Font("Georgia", 9F);
             this.btnQuitar.ForeColor = System.Drawing.Color.Transparent;
             this.btnQuitar.Location = new System.Drawing.Point(28, 266);
-            this.btnQuitar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnQuitar.Margin = new System.Windows.Forms.Padding(2);
             this.btnQuitar.Name = "btnQuitar";
             this.btnQuitar.Size = new System.Drawing.Size(86, 32);
             this.btnQuitar.TabIndex = 15;
@@ -668,13 +680,13 @@
             this.label14.TabIndex = 9;
             this.label14.Text = "Producto en Carrito";
             // 
-            // pictureBox1
+            // pictureBox3
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(185, 107);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.TabIndex = 14;
-            this.pictureBox1.TabStop = false;
+            this.pictureBox3.Location = new System.Drawing.Point(291, 107);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox3.TabIndex = 15;
+            this.pictureBox3.TabStop = false;
             // 
             // frmVenta
             // 
@@ -693,7 +705,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.Karolins);
             this.Controls.Add(this.pictureBox2);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1114, 657);
             this.Name = "frmVenta";
@@ -706,6 +718,7 @@
             this.roundedPanel1.PerformLayout();
             this.roundedPanel2.ResumeLayout(false);
             this.roundedPanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.roundedPanel3.ResumeLayout(false);
             this.roundedPanel3.PerformLayout();
             this.roundedPanel4.ResumeLayout(false);
@@ -718,7 +731,7 @@
             this.roundedPanel7.ResumeLayout(false);
             this.roundedPanel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalles)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -772,5 +785,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnBuscarProducto;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
