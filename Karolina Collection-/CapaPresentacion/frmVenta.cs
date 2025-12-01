@@ -31,5 +31,10 @@ namespace Karolina_Collection_.CapaPresentacion
         {
             Close();
         }
+
+        private void btnNuevoCliente_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
