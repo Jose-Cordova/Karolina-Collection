@@ -75,6 +75,7 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.roundedPanel1.SuspendLayout();
             this.roundedPanel2.SuspendLayout();
@@ -87,6 +88,7 @@
             this.roundedPanel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalles)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox2
@@ -154,6 +156,7 @@
             this.roundedPanel2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
             this.roundedPanel2.BorderRadius = 25;
             this.roundedPanel2.BorderSize = 1;
+            this.roundedPanel2.Controls.Add(this.pictureBox4);
             this.roundedPanel2.Controls.Add(this.pictureBox3);
             this.roundedPanel2.Controls.Add(this.pictureBox1);
             this.roundedPanel2.Controls.Add(this.dtpFecha);
@@ -688,6 +691,14 @@
             this.pictureBox3.TabIndex = 15;
             this.pictureBox3.TabStop = false;
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Location = new System.Drawing.Point(123, 128);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox4.TabIndex = 16;
+            this.pictureBox4.TabStop = false;
+            // 
             // frmVenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -732,6 +743,7 @@
             this.roundedPanel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalles)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -786,5 +798,6 @@
         private System.Windows.Forms.Button btnBuscarProducto;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox4;
     }
 }
