@@ -73,7 +73,6 @@
             this.dividerLine1 = new DividerLine();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.roundedPanel1.SuspendLayout();
             this.roundedPanel2.SuspendLayout();
@@ -125,7 +124,6 @@
             this.roundedPanel1.BorderRadius = 25;
             this.roundedPanel1.BorderSize = 1;
             this.roundedPanel1.Controls.Add(this.label9);
-            this.roundedPanel1.Controls.Add(this.btnNuevoCliente);
             this.roundedPanel1.Controls.Add(this.roundedPanel2);
             this.roundedPanel1.Location = new System.Drawing.Point(33, 67);
             this.roundedPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
@@ -154,7 +152,7 @@
             this.btnNuevoCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNuevoCliente.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNuevoCliente.ForeColor = System.Drawing.Color.White;
-            this.btnNuevoCliente.Location = new System.Drawing.Point(434, 113);
+            this.btnNuevoCliente.Location = new System.Drawing.Point(394, 39);
             this.btnNuevoCliente.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnNuevoCliente.Name = "btnNuevoCliente";
             this.btnNuevoCliente.Size = new System.Drawing.Size(174, 34);
@@ -169,8 +167,8 @@
             this.roundedPanel2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
             this.roundedPanel2.BorderRadius = 25;
             this.roundedPanel2.BorderSize = 1;
-            this.roundedPanel2.Controls.Add(this.button1);
             this.roundedPanel2.Controls.Add(this.dtpFecha);
+            this.roundedPanel2.Controls.Add(this.btnNuevoCliente);
             this.roundedPanel2.Controls.Add(this.label3);
             this.roundedPanel2.Controls.Add(this.cboCliente);
             this.roundedPanel2.Controls.Add(this.label2);
@@ -667,15 +665,6 @@
             this.label14.TabIndex = 9;
             this.label14.Text = "Producto en Carrito";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(372, 15);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // frmVenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -770,6 +759,5 @@
         private System.Windows.Forms.DateTimePicker dtpFecha;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnBuscarProducto;
-        private System.Windows.Forms.Button button1;
     }
 }

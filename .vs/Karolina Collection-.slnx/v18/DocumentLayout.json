@@ -1,21 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fjami\\Documents\\Clona Repositorio\\Karolina-Collection\\",
+  "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\Estudio de nivel superior\\Itcha\\Primer a\u00F1o\\Primer ciclo\\Materias\\Ciclo 2\\Proyecto de inovacion\\Repositoio Clonado\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|c:\\users\\fjami\\documents\\clona repositorio\\karolina-collection\\karolina collection-\\capaentidades\\detalle_venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|solutionrelative:karolina collection-\\capaentidades\\detalle_venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|C:\\Users\\fjami\\Documents\\Clona Repositorio\\Karolina-Collection\\karolina collection-\\capapresentacion\\frmventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|C:\\Users\\PC\\Documents\\Estudio de nivel superior\\Itcha\\Primer a\u00F1o\\Primer ciclo\\Materias\\Ciclo 2\\Proyecto de inovacion\\Repositoio Clonado\\karolina collection-\\capapresentacion\\frmventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|solutionrelative:karolina collection-\\capapresentacion\\frmventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|C:\\Users\\fjami\\Documents\\Clona Repositorio\\Karolina-Collection\\karolina collection-\\capapresentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|solutionrelative:karolina collection-\\capapresentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|c:\\users\\pc\\documents\\estudio de nivel superior\\itcha\\primer a\u00F1o\\primer ciclo\\materias\\ciclo 2\\proyecto de inovacion\\repositoio clonado\\karolina collection-\\capaentidades\\detalle_venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|solutionrelative:karolina collection-\\capaentidades\\detalle_venta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fjami\\source\\repos\\Karolina Collection-\\karolina collection-\\capapresentacion\\frmr_producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|c:\\users\\pc\\documents\\estudio de nivel superior\\itcha\\primer a\u00F1o\\primer ciclo\\materias\\ciclo 2\\proyecto de inovacion\\repositoio clonado\\karolina collection-\\capadatos\\clientedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|solutionrelative:karolina collection-\\capadatos\\clientedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|c:\\users\\pc\\documents\\estudio de nivel superior\\itcha\\primer a\u00F1o\\primer ciclo\\materias\\ciclo 2\\proyecto de inovacion\\repositoio clonado\\karolina collection-\\capapresentacion\\frmventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|solutionrelative:karolina collection-\\capapresentacion\\frmventa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|C:\\Users\\PC\\Documents\\Estudio de nivel superior\\Itcha\\Primer a\u00F1o\\Primer ciclo\\Materias\\Ciclo 2\\Proyecto de inovacion\\Repositoio Clonado\\karolina collection-\\capapresentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{69CA6A41-BF42-4E20-BFAF-63A1881786E7}|Karolina Collection-\\Karolina Collection-.csproj|solutionrelative:karolina collection-\\capapresentacion\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,8 +30,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 373,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClienteDAL.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Estudio de nivel superior\\Itcha\\Primer a\u00F1o\\Primer ciclo\\Materias\\Ciclo 2\\Proyecto de inovacion\\Repositoio Clonado\\Karolina Collection-\\CapaDatos\\ClienteDAL.cs",
+              "RelativeDocumentMoniker": "Karolina Collection-\\CapaDatos\\ClienteDAL.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Estudio de nivel superior\\Itcha\\Primer a\u00F1o\\Primer ciclo\\Materias\\Ciclo 2\\Proyecto de inovacion\\Repositoio Clonado\\Karolina Collection-\\CapaDatos\\ClienteDAL.cs",
+              "RelativeToolTip": "Karolina Collection-\\CapaDatos\\ClienteDAL.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T17:51:47.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -45,47 +67,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "frmVenta.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Estudio de nivel superior\\Itcha\\Primer a\u00F1o\\Primer ciclo\\Materias\\Ciclo 2\\Proyecto de inovacion\\Repositoio Clonado\\Karolina Collection-\\CapaPresentacion\\frmVenta.cs",
+              "RelativeDocumentMoniker": "Karolina Collection-\\CapaPresentacion\\frmVenta.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Estudio de nivel superior\\Itcha\\Primer a\u00F1o\\Primer ciclo\\Materias\\Ciclo 2\\Proyecto de inovacion\\Repositoio Clonado\\Karolina Collection-\\CapaPresentacion\\frmVenta.cs",
+              "RelativeToolTip": "Karolina Collection-\\CapaPresentacion\\frmVenta.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAApwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T17:51:35.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Detalle_venta.cs",
-              "DocumentMoniker": "C:\\Users\\fjami\\Documents\\Clona Repositorio\\Karolina-Collection\\Karolina Collection-\\CapaEntidades\\Detalle_venta.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Estudio de nivel superior\\Itcha\\Primer a\u00F1o\\Primer ciclo\\Materias\\Ciclo 2\\Proyecto de inovacion\\Repositoio Clonado\\Karolina Collection-\\CapaEntidades\\Detalle_venta.cs",
               "RelativeDocumentMoniker": "Karolina Collection-\\CapaEntidades\\Detalle_venta.cs",
-              "ToolTip": "C:\\Users\\fjami\\Documents\\Clona Repositorio\\Karolina-Collection\\Karolina Collection-\\CapaEntidades\\Detalle_venta.cs",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Estudio de nivel superior\\Itcha\\Primer a\u00F1o\\Primer ciclo\\Materias\\Ciclo 2\\Proyecto de inovacion\\Repositoio Clonado\\Karolina Collection-\\CapaEntidades\\Detalle_venta.cs",
               "RelativeToolTip": "Karolina Collection-\\CapaEntidades\\Detalle_venta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-28T04:28:11.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "frmVenta.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\fjami\\Documents\\Clona Repositorio\\Karolina-Collection\\Karolina Collection-\\CapaPresentacion\\frmVenta.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Estudio de nivel superior\\Itcha\\Primer a\u00F1o\\Primer ciclo\\Materias\\Ciclo 2\\Proyecto de inovacion\\Repositoio Clonado\\Karolina Collection-\\CapaPresentacion\\frmVenta.cs",
               "RelativeDocumentMoniker": "Karolina Collection-\\CapaPresentacion\\frmVenta.cs",
-              "ToolTip": "C:\\Users\\fjami\\Documents\\Clona Repositorio\\Karolina-Collection\\Karolina Collection-\\CapaPresentacion\\frmVenta.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Estudio de nivel superior\\Itcha\\Primer a\u00F1o\\Primer ciclo\\Materias\\Ciclo 2\\Proyecto de inovacion\\Repositoio Clonado\\Karolina Collection-\\CapaPresentacion\\frmVenta.cs [Dise\u00F1o]",
               "RelativeToolTip": "Karolina Collection-\\CapaPresentacion\\frmVenta.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T03:41:18.518Z"
+              "WhenOpened": "2025-11-26T03:41:18.518Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmR_Producto.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\fjami\\source\\repos\\Karolina Collection-\\Karolina Collection-\\CapaPresentacion\\frmR_Producto.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\source\\repos\\Karolina Collection-\\Karolina Collection-\\CapaPresentacion\\frmR_Producto.cs",
-              "ToolTip": "C:\\Users\\fjami\\source\\repos\\Karolina Collection-\\Karolina Collection-\\CapaPresentacion\\frmR_Producto.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\source\\repos\\Karolina Collection-\\Karolina Collection-\\CapaPresentacion\\frmR_Producto.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T01:03:30.975Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Inicio.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\fjami\\Documents\\Clona Repositorio\\Karolina-Collection\\Karolina Collection-\\CapaPresentacion\\Inicio.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Estudio de nivel superior\\Itcha\\Primer a\u00F1o\\Primer ciclo\\Materias\\Ciclo 2\\Proyecto de inovacion\\Repositoio Clonado\\Karolina Collection-\\CapaPresentacion\\Inicio.cs",
               "RelativeDocumentMoniker": "Karolina Collection-\\CapaPresentacion\\Inicio.cs",
               "ToolTip": "C:\\Users\\fjami\\source\\repos\\Karolina Collection-\\Karolina Collection-\\CapaPresentacion\\Inicio.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\source\\repos\\Karolina Collection-\\Karolina Collection-\\CapaPresentacion\\Inicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\fjami\\source\\repos\\Karolina Collection-\\Karolina Collection-\\CapaPresentacion\\Inicio.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-26T01:02:11.478Z"
             }
