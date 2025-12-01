@@ -8,7 +8,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 
 namespace Karolina_Collection_.CapaEntidades
 {
-    public static class Validaciones1
+    public static class Validaciones
     {
         //Validar que el valor sea entero
         public static bool EsEntero(string s)
