@@ -31,7 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
             this.label1 = new System.Windows.Forms.Label();
             this.Karolins = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.lblUsuario = new System.Windows.Forms.Label();
             this.roundedPanel1 = new RoundedPanel();
+            this.cambiarClave = new BotonPremium();
             this.roundedPanel3 = new RoundedPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.roundedPanel2 = new RoundedPanel();
@@ -51,12 +54,11 @@
             this.btnVenta_rapida = new BotonPremium();
             this.dividerLine4 = new DividerLine();
             this.dividerLine1 = new DividerLine();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.roundedPanel1.SuspendLayout();
             this.roundedPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.roundedPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -83,12 +85,33 @@
             this.Karolins.Text = "KAROLINA COLLECTION";
             this.Karolins.Click += new System.EventHandler(this.Karolins_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Karolina_Collection_.Properties.Resources.icons8_corona_48;
+            this.pictureBox2.Location = new System.Drawing.Point(25, 8);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(55, 51);
+            this.pictureBox2.TabIndex = 9;
+            this.pictureBox2.TabStop = false;
+            // 
+            // lblUsuario
+            // 
+            this.lblUsuario.AutoSize = true;
+            this.lblUsuario.Font = new System.Drawing.Font("Segoe Script", 11F);
+            this.lblUsuario.ForeColor = System.Drawing.Color.Yellow;
+            this.lblUsuario.Location = new System.Drawing.Point(983, 18);
+            this.lblUsuario.Name = "lblUsuario";
+            this.lblUsuario.Size = new System.Drawing.Size(76, 30);
+            this.lblUsuario.TabIndex = 11;
+            this.lblUsuario.Text = "label2";
+            // 
             // roundedPanel1
             // 
             this.roundedPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(4)))));
             this.roundedPanel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
             this.roundedPanel1.BorderRadius = 25;
             this.roundedPanel1.BorderSize = 1;
+            this.roundedPanel1.Controls.Add(this.cambiarClave);
             this.roundedPanel1.Controls.Add(this.roundedPanel3);
             this.roundedPanel1.Controls.Add(this.roundedPanel2);
             this.roundedPanel1.Controls.Add(this.dividerLine1);
@@ -98,6 +121,25 @@
             this.roundedPanel1.Size = new System.Drawing.Size(1208, 624);
             this.roundedPanel1.TabIndex = 4;
             this.roundedPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.roundedPanel1_Paint);
+            // 
+            // cambiarClave
+            // 
+            this.cambiarClave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.cambiarClave.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cambiarClave.FlatAppearance.BorderSize = 0;
+            this.cambiarClave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cambiarClave.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cambiarClave.ForeColor = System.Drawing.Color.Transparent;
+            this.cambiarClave.Image = ((System.Drawing.Image)(resources.GetObject("cambiarClave.Image")));
+            this.cambiarClave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.cambiarClave.Location = new System.Drawing.Point(993, 3);
+            this.cambiarClave.Name = "cambiarClave";
+            this.cambiarClave.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.cambiarClave.Size = new System.Drawing.Size(174, 30);
+            this.cambiarClave.TabIndex = 14;
+            this.cambiarClave.Text = "Cambiar Contraseña";
+            this.cambiarClave.UseVisualStyleBackColor = false;
+            this.cambiarClave.Click += new System.EventHandler(this.cambiarClave_Click);
             // 
             // roundedPanel3
             // 
@@ -166,6 +208,7 @@
             this.btnUsuarios.TabIndex = 12;
             this.btnUsuarios.Text = "Usuarios";
             this.btnUsuarios.UseVisualStyleBackColor = false;
+            this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
             // 
             // dividerLine8
             // 
@@ -225,6 +268,7 @@
             this.btnCierre_caja.TabIndex = 10;
             this.btnCierre_caja.Text = "Cerra Caja";
             this.btnCierre_caja.UseVisualStyleBackColor = false;
+            this.btnCierre_caja.Click += new System.EventHandler(this.btnCierre_caja_Click);
             // 
             // dividerLine6
             // 
@@ -254,6 +298,7 @@
             this.btnReportes.TabIndex = 8;
             this.btnReportes.Text = "Reportes";
             this.btnReportes.UseVisualStyleBackColor = false;
+            this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click);
             // 
             // dividerLine5
             // 
@@ -388,15 +433,6 @@
             this.dividerLine1.TabIndex = 5;
             this.dividerLine1.Text = "dividerLine1";
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Karolina_Collection_.Properties.Resources.icons8_corona_48;
-            this.pictureBox2.Location = new System.Drawing.Point(25, 8);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(55, 51);
-            this.pictureBox2.TabIndex = 9;
-            this.pictureBox2.TabStop = false;
-            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
@@ -404,6 +440,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
             this.ClientSize = new System.Drawing.Size(1295, 716);
+            this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.roundedPanel1);
@@ -416,11 +453,11 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.roundedPanel1.ResumeLayout(false);
             this.roundedPanel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.roundedPanel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -451,6 +488,8 @@
         private BotonPremium btnCerrar_sesion;
         private BotonPremium btnUsuarios;
         private DividerLine dividerLine8;
+        private BotonPremium cambiarClave;
+        private System.Windows.Forms.Label lblUsuario;
     }
 }
 

@@ -68,25 +68,50 @@ namespace Karolina_Collection_.CapaDatos
                     {
                         try
                         {
-                            string consulta = @"
-                                INSERT INTO Producto(nombre_producto, descripcion, precio_base, id_sub_categoria, id_marca, id_proveedor) 
-                                VALUES(@nombre_producto, @descripcion, @precio_base, @id_sub_categoria, @id_marca, @id_proveedor);
-                                SELECT SCOPE_IDENTITY();";
-                            //Aquí se guardará el ID del producto recién insertado
+                            //Variable para guardar el id(Ya sea nuevo o biejo)
                             int id_generado = 0;
+                            //Vereficar si el producto ya existe
+                            string consulta_producto = @"SELECT id FROM Producto 
+                                WHERE nombre_producto = @nombre_producto 
+                                AND id_proveedor = @id_proveedor 
+                                AND id_marca = @id_marca";
 
-                            using (SqlCommand cmd = new SqlCommand(consulta, conexion, transaccion))
+                            using (SqlCommand cmd = new SqlCommand(consulta_producto, conexion, transaccion))
                             {
                                 cmd.Parameters.AddWithValue("@nombre_producto", p.nombre_producto);
-                                cmd.Parameters.AddWithValue("@descripcion", p.descripcion);
-                                cmd.Parameters.AddWithValue("@precio_base", p.precio_base);
-                                cmd.Parameters.AddWithValue("@id_sub_categoria", p.id_sub_categoria);
-                                cmd.Parameters.AddWithValue("@id_marca", p.id_marca);
                                 cmd.Parameters.AddWithValue("@id_proveedor", p.id_proveedor);
+                                cmd.Parameters.AddWithValue("@id_marca", p.id_marca);
+                                //Se ejecuta la busqueda del producto
+                                object resultado = cmd.ExecuteScalar();
 
-                                // Ejecuta la consulta y obtiene el ID generado con SCOPE_IDENTITY()
-                                id_generado = Convert.ToInt32(cmd.ExecuteScalar());
+                                //Condicion para vereficar si esta o no el producto
+                                if (resultado != null)
+                                {
+                                    //Si en caso de que ya existe no se inserta nada en la tabla producto y se usa el id del producto que existe
+                                    id_generado = Convert.ToInt32(resultado);
+                                }
+                                else
+                                {
+                                    string consulta = @"
+                                        INSERT INTO Producto(nombre_producto, descripcion, precio_base, id_sub_categoria, id_marca, id_proveedor) 
+                                        VALUES(@nombre_producto, @descripcion, @precio_base, @id_sub_categoria, @id_marca, @id_proveedor);
+                                        SELECT SCOPE_IDENTITY();";
+                                    //Aquí se guardará el ID del producto recién insertado
+                                    using (SqlCommand cmdInsert = new SqlCommand(consulta, conexion, transaccion))
+                                    {
+                                        cmdInsert.Parameters.AddWithValue("@nombre_producto", p.nombre_producto);
+                                        cmdInsert.Parameters.AddWithValue("@descripcion", p.descripcion);
+                                        cmdInsert.Parameters.AddWithValue("@precio_base", p.precio_base);
+                                        cmdInsert.Parameters.AddWithValue("@id_sub_categoria", p.id_sub_categoria);
+                                        cmdInsert.Parameters.AddWithValue("@id_marca", p.id_marca);
+                                        cmdInsert.Parameters.AddWithValue("@id_proveedor", p.id_proveedor);
+
+                                        // Ejecuta la consulta y obtiene el ID generado con SCOPE_IDENTITY()
+                                        id_generado = Convert.ToInt32(cmdInsert.ExecuteScalar());
+                                    }
+                                }
                             }
+
                             //Recorre la lista de variantes para insertarlas
                             foreach (Producto_variante item in listaVariantes)
                             {

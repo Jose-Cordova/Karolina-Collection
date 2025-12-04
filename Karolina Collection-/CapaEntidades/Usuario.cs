@@ -10,6 +10,9 @@ namespace Karolina_Collection_.CapaEntidades
     {
         public int id { get; set; }
         public string nombre_usuario { get; set; }
-        public string contrasenia { get; set; }
+        public string clave_hash { get; set; }
+        public string rol { get; set; }
+        public bool estado { get; set; }
+        public string fecha_creacion { get; set; }
     }
 }

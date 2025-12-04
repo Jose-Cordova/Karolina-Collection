@@ -11,6 +11,7 @@ namespace Karolina_Collection_.CapaEntidades
         public int id { get; set; }
         public Decimal precio_unitario { get; set; }
         public int cantidad { get; set; }
+        public decimal sub_total { get; set; }
         public int id_producto_variante { get; set; }
         public int id_venta { get; set; }
     }

@@ -85,14 +85,20 @@ INSERT INTO Marca (nombre_marca) VALUES
 ('Polo Ralph Lauren');
 
 -- Tabla para login
-create table Usuario(
-id int primary key identity(1,1),
-nombre_usuario varchar(100)not null,
-contrasenia varchar (100) not null
-);
-INSERT INTO Usuario (nombre_usuario, contrasenia) VALUES 
-('admin', 'admin123'),
-('empleado1', 'emple123');
+CREATE TABLE Usuario (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    nombre_usuario VARCHAR(50) NOT NULL UNIQUE,
+    clave_hash VARCHAR(64) NOT NULL, -- SHA-256 => 64 hex chars
+    rol VARCHAR(20) NOT NULL,
+    estado BIT NOT NULL DEFAULT 1,
+    fecha_creacion DATETIME NOT NULL DEFAULT GETDATE()
+    );
+    INSERT INTO Usuario (nombre_usuario, clave_hash, rol, estado)
+VALUES 
+--Contraseña Administrador_2025 para brenda
+('brenda',  'aac2d2e418bb2ee976c128d839915aa9f1b1a2c74fefed18b8648f07b721cbb', 'Admin', 1),
+--Contraseña Empledo_2025 para juanita
+('juanita', 'ad3b2b9a10832b35a85bc86e2102db5ad9fc2551c78c8705670ae14dbb437a78', 'Empleado', 1)
 
 -- Tablas Dependientes
 create table Sub_categoria(
@@ -253,3 +259,30 @@ INSERT INTO Detalle_venta (precio_unitario, cantidad, sub_total, id_producto_var
 (29.99, 1, 29.99, 32, 4),
 -- Venta 5
 (59.99, 1, 59.99, 40, 5);
+
+CREATE PROCEDURE sp_reporte_ventas_periodo
+    @FechaInicio DATE,
+    @FechaFin DATE
+AS
+BEGIN
+    SELECT
+        v.id,
+        v.fecha,
+        c.nombre_completo AS Cliente,
+        p.nombre_producto AS Producto,
+        dv.cantidad,
+        dv.precio_unitario,
+        (dv.cantidad * dv.precio_unitario) AS SubTotal,
+        v.total_venta
+    FROM Venta v
+    INNER JOIN Cliente c ON v.id_cliente = c.id
+    INNER JOIN Detalle_venta dv ON dv.id_venta = v.id
+    INNER JOIN Producto_variante pv ON pv.id = dv.id_producto_variante
+    INNER JOIN Producto p ON p.id = pv.id_producto
+    WHERE v.fecha BETWEEN @FechaInicio AND @FechaFin
+    ORDER BY v.fecha ASC;
+END
+
+
+
+

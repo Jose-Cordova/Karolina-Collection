@@ -40,9 +40,7 @@
             this.btnRegistrarproducto = new BotonPremium();
             this.dividerLine1 = new DividerLine();
             this.roundedPanel4 = new RoundedPanel();
-            this.roundedPanel5 = new RoundedPanel();
             this.btnAgregarfila = new BotonPremium();
-            this.roundedPanel7 = new RoundedPanel();
             this.btnQuitarfila = new BotonPremium();
             this.dgvProductovariante = new System.Windows.Forms.DataGridView();
             this.colTalla = new System.Windows.Forms.DataGridViewComboBoxColumn();
@@ -71,8 +69,6 @@
             this.roundedPanel8.SuspendLayout();
             this.roundedPanel6.SuspendLayout();
             this.roundedPanel4.SuspendLayout();
-            this.roundedPanel5.SuspendLayout();
-            this.roundedPanel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductovariante)).BeginInit();
             this.roundedPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudCostobase)).BeginInit();
@@ -132,23 +128,23 @@
             this.roundedPanel8.BorderRadius = 25;
             this.roundedPanel8.BorderSize = 1;
             this.roundedPanel8.Controls.Add(this.btnVolver_menu);
-            this.roundedPanel8.Location = new System.Drawing.Point(1357, 561);
+            this.roundedPanel8.Location = new System.Drawing.Point(1357, 547);
             this.roundedPanel8.Margin = new System.Windows.Forms.Padding(4);
             this.roundedPanel8.Name = "roundedPanel8";
             this.roundedPanel8.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.roundedPanel8.Size = new System.Drawing.Size(247, 59);
+            this.roundedPanel8.Size = new System.Drawing.Size(247, 82);
             this.roundedPanel8.TabIndex = 16;
             // 
             // btnVolver_menu
             // 
-            this.btnVolver_menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.btnVolver_menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnVolver_menu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnVolver_menu.FlatAppearance.BorderSize = 0;
             this.btnVolver_menu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVolver_menu.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVolver_menu.ForeColor = System.Drawing.Color.Transparent;
             this.btnVolver_menu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnVolver_menu.Location = new System.Drawing.Point(50, 6);
+            this.btnVolver_menu.Location = new System.Drawing.Point(49, 17);
             this.btnVolver_menu.Margin = new System.Windows.Forms.Padding(4);
             this.btnVolver_menu.Name = "btnVolver_menu";
             this.btnVolver_menu.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -200,18 +196,18 @@
             // 
             // btnCancelarproducto
             // 
-            this.btnCancelarproducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.btnCancelarproducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnCancelarproducto.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCancelarproducto.FlatAppearance.BorderSize = 0;
             this.btnCancelarproducto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelarproducto.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancelarproducto.ForeColor = System.Drawing.Color.Transparent;
             this.btnCancelarproducto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnCancelarproducto.Location = new System.Drawing.Point(21, 91);
+            this.btnCancelarproducto.Location = new System.Drawing.Point(21, 103);
             this.btnCancelarproducto.Margin = new System.Windows.Forms.Padding(4);
             this.btnCancelarproducto.Name = "btnCancelarproducto";
             this.btnCancelarproducto.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnCancelarproducto.Size = new System.Drawing.Size(204, 68);
+            this.btnCancelarproducto.Size = new System.Drawing.Size(204, 49);
             this.btnCancelarproducto.TabIndex = 7;
             this.btnCancelarproducto.Text = "CANCELAR";
             this.btnCancelarproducto.UseVisualStyleBackColor = false;
@@ -219,18 +215,18 @@
             // 
             // btnRegistrarproducto
             // 
-            this.btnRegistrarproducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.btnRegistrarproducto.BackColor = System.Drawing.Color.Lime;
             this.btnRegistrarproducto.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRegistrarproducto.FlatAppearance.BorderSize = 0;
             this.btnRegistrarproducto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRegistrarproducto.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrarproducto.ForeColor = System.Drawing.Color.Transparent;
             this.btnRegistrarproducto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRegistrarproducto.Location = new System.Drawing.Point(4, 19);
+            this.btnRegistrarproducto.Location = new System.Drawing.Point(21, 19);
             this.btnRegistrarproducto.Margin = new System.Windows.Forms.Padding(4);
             this.btnRegistrarproducto.Name = "btnRegistrarproducto";
             this.btnRegistrarproducto.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnRegistrarproducto.Size = new System.Drawing.Size(221, 48);
+            this.btnRegistrarproducto.Size = new System.Drawing.Size(204, 48);
             this.btnRegistrarproducto.TabIndex = 6;
             this.btnRegistrarproducto.Text = "GURDAR TODO\r\n";
             this.btnRegistrarproducto.UseVisualStyleBackColor = false;
@@ -254,8 +250,8 @@
             this.roundedPanel4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
             this.roundedPanel4.BorderRadius = 25;
             this.roundedPanel4.BorderSize = 1;
-            this.roundedPanel4.Controls.Add(this.roundedPanel5);
-            this.roundedPanel4.Controls.Add(this.roundedPanel7);
+            this.roundedPanel4.Controls.Add(this.btnAgregarfila);
+            this.roundedPanel4.Controls.Add(this.btnQuitarfila);
             this.roundedPanel4.Controls.Add(this.dgvProductovariante);
             this.roundedPanel4.Location = new System.Drawing.Point(63, 309);
             this.roundedPanel4.Margin = new System.Windows.Forms.Padding(4);
@@ -264,30 +260,16 @@
             this.roundedPanel4.Size = new System.Drawing.Size(1255, 320);
             this.roundedPanel4.TabIndex = 2;
             // 
-            // roundedPanel5
-            // 
-            this.roundedPanel5.BackColor = System.Drawing.Color.Transparent;
-            this.roundedPanel5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.roundedPanel5.BorderRadius = 25;
-            this.roundedPanel5.BorderSize = 1;
-            this.roundedPanel5.Controls.Add(this.btnAgregarfila);
-            this.roundedPanel5.Location = new System.Drawing.Point(94, 238);
-            this.roundedPanel5.Margin = new System.Windows.Forms.Padding(4);
-            this.roundedPanel5.Name = "roundedPanel5";
-            this.roundedPanel5.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.roundedPanel5.Size = new System.Drawing.Size(167, 64);
-            this.roundedPanel5.TabIndex = 6;
-            // 
             // btnAgregarfila
             // 
-            this.btnAgregarfila.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.btnAgregarfila.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnAgregarfila.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAgregarfila.FlatAppearance.BorderSize = 0;
             this.btnAgregarfila.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregarfila.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregarfila.ForeColor = System.Drawing.Color.Transparent;
             this.btnAgregarfila.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAgregarfila.Location = new System.Drawing.Point(15, 4);
+            this.btnAgregarfila.Location = new System.Drawing.Point(71, 238);
             this.btnAgregarfila.Margin = new System.Windows.Forms.Padding(4);
             this.btnAgregarfila.Name = "btnAgregarfila";
             this.btnAgregarfila.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -297,30 +279,16 @@
             this.btnAgregarfila.UseVisualStyleBackColor = false;
             this.btnAgregarfila.Click += new System.EventHandler(this.btnAgregarfila_Click);
             // 
-            // roundedPanel7
-            // 
-            this.roundedPanel7.BackColor = System.Drawing.Color.Transparent;
-            this.roundedPanel7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
-            this.roundedPanel7.BorderRadius = 25;
-            this.roundedPanel7.BorderSize = 1;
-            this.roundedPanel7.Controls.Add(this.btnQuitarfila);
-            this.roundedPanel7.Location = new System.Drawing.Point(358, 238);
-            this.roundedPanel7.Margin = new System.Windows.Forms.Padding(4);
-            this.roundedPanel7.Name = "roundedPanel7";
-            this.roundedPanel7.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
-            this.roundedPanel7.Size = new System.Drawing.Size(167, 64);
-            this.roundedPanel7.TabIndex = 4;
-            // 
             // btnQuitarfila
             // 
-            this.btnQuitarfila.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.btnQuitarfila.BackColor = System.Drawing.Color.Red;
             this.btnQuitarfila.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnQuitarfila.FlatAppearance.BorderSize = 0;
             this.btnQuitarfila.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQuitarfila.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuitarfila.ForeColor = System.Drawing.Color.Transparent;
             this.btnQuitarfila.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQuitarfila.Location = new System.Drawing.Point(17, 4);
+            this.btnQuitarfila.Location = new System.Drawing.Point(233, 238);
             this.btnQuitarfila.Margin = new System.Windows.Forms.Padding(4);
             this.btnQuitarfila.Name = "btnQuitarfila";
             this.btnQuitarfila.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -638,8 +606,6 @@
             this.roundedPanel8.ResumeLayout(false);
             this.roundedPanel6.ResumeLayout(false);
             this.roundedPanel4.ResumeLayout(false);
-            this.roundedPanel5.ResumeLayout(false);
-            this.roundedPanel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductovariante)).EndInit();
             this.roundedPanel3.ResumeLayout(false);
             this.roundedPanel3.PerformLayout();
@@ -678,7 +644,6 @@
         private RoundedPanel roundedPanel4;
         private System.Windows.Forms.DataGridView dgvProductovariante;
         private RoundedPanel roundedPanel6;
-        private RoundedPanel roundedPanel7;
         private BotonPremium btnQuitarfila;
         private DividerLine dividerLine1;
         private BotonPremium btnCancelarproducto;
@@ -687,7 +652,6 @@
         private System.Windows.Forms.Label label9;
         private RoundedPanel roundedPanel8;
         private BotonPremium btnVolver_menu;
-        private RoundedPanel roundedPanel5;
         private BotonPremium btnAgregarfila;
         private System.Windows.Forms.DataGridViewComboBoxColumn colTalla;
         private System.Windows.Forms.DataGridViewComboBoxColumn colColor;

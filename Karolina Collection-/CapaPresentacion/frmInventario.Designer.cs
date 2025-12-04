@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.Karolins = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.roundedPanel1 = new RoundedPanel();
             this.roundedPanel8 = new RoundedPanel();
             this.btnVolver_menu = new BotonPremium();
@@ -37,22 +39,22 @@
             this.btnGuardarCambios = new BotonPremium();
             this.dividerLine1 = new DividerLine();
             this.roundedPanel5 = new RoundedPanel();
+            this.lblStockActual = new System.Windows.Forms.Label();
+            this.nudStock = new System.Windows.Forms.NumericUpDown();
             this.nudMprecio = new System.Windows.Forms.NumericUpDown();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtMstock = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.dgvInventario = new System.Windows.Forms.DataGridView();
             this.txtBuscarProducto = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.roundedPanel1.SuspendLayout();
             this.roundedPanel8.SuspendLayout();
             this.roundedPanel6.SuspendLayout();
             this.roundedPanel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudStock)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudMprecio)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvInventario)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // Karolins
@@ -66,6 +68,27 @@
             this.Karolins.Size = new System.Drawing.Size(404, 35);
             this.Karolins.TabIndex = 14;
             this.Karolins.Text = "KAROLINA COLLECTION";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe Script", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Gold;
+            this.label1.Location = new System.Drawing.Point(132, 48);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(217, 23);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Elegancia y Estilo para Ti";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Karolina_Collection_.Properties.Resources.icons8_corona_48;
+            this.pictureBox2.Location = new System.Drawing.Point(25, 13);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(62, 51);
+            this.pictureBox2.TabIndex = 13;
+            this.pictureBox2.TabStop = false;
             // 
             // roundedPanel1
             // 
@@ -101,7 +124,7 @@
             // 
             // btnVolver_menu
             // 
-            this.btnVolver_menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.btnVolver_menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnVolver_menu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnVolver_menu.FlatAppearance.BorderSize = 0;
             this.btnVolver_menu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -114,7 +137,7 @@
             this.btnVolver_menu.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnVolver_menu.Size = new System.Drawing.Size(159, 47);
             this.btnVolver_menu.TabIndex = 7;
-            this.btnVolver_menu.Text = "Volver";
+            this.btnVolver_menu.Text = "VOLVER";
             this.btnVolver_menu.UseVisualStyleBackColor = false;
             this.btnVolver_menu.Click += new System.EventHandler(this.btnVolver_menu_Click);
             // 
@@ -136,40 +159,41 @@
             // 
             // btnEliminarProducto
             // 
-            this.btnEliminarProducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.btnEliminarProducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnEliminarProducto.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEliminarProducto.FlatAppearance.BorderSize = 0;
             this.btnEliminarProducto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEliminarProducto.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminarProducto.ForeColor = System.Drawing.Color.Transparent;
             this.btnEliminarProducto.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEliminarProducto.Location = new System.Drawing.Point(26, 80);
+            this.btnEliminarProducto.Location = new System.Drawing.Point(43, 80);
             this.btnEliminarProducto.Margin = new System.Windows.Forms.Padding(4);
             this.btnEliminarProducto.Name = "btnEliminarProducto";
             this.btnEliminarProducto.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.btnEliminarProducto.Size = new System.Drawing.Size(204, 68);
+            this.btnEliminarProducto.Size = new System.Drawing.Size(193, 68);
             this.btnEliminarProducto.TabIndex = 7;
-            this.btnEliminarProducto.Text = "Eliminar Producto";
+            this.btnEliminarProducto.Text = "ELIMINAR PRODUCTO";
             this.btnEliminarProducto.UseVisualStyleBackColor = false;
             this.btnEliminarProducto.Click += new System.EventHandler(this.btnCancelarproducto_Click);
             // 
             // btnGuardarCambios
             // 
-            this.btnGuardarCambios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.btnGuardarCambios.BackColor = System.Drawing.Color.Lime;
             this.btnGuardarCambios.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGuardarCambios.FlatAppearance.BorderSize = 0;
             this.btnGuardarCambios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardarCambios.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuardarCambios.ForeColor = System.Drawing.Color.Transparent;
             this.btnGuardarCambios.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnGuardarCambios.Location = new System.Drawing.Point(9, 16);
+            this.btnGuardarCambios.Location = new System.Drawing.Point(26, 14);
             this.btnGuardarCambios.Margin = new System.Windows.Forms.Padding(4);
             this.btnGuardarCambios.Name = "btnGuardarCambios";
             this.btnGuardarCambios.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnGuardarCambios.Size = new System.Drawing.Size(221, 48);
             this.btnGuardarCambios.TabIndex = 6;
-            this.btnGuardarCambios.Text = "Guardar Cambios";
+            this.btnGuardarCambios.Text = "GUARDAR CAMBIOS";
             this.btnGuardarCambios.UseVisualStyleBackColor = false;
+            this.btnGuardarCambios.Click += new System.EventHandler(this.btnGuardarCambios_Click);
             // 
             // dividerLine1
             // 
@@ -189,9 +213,10 @@
             this.roundedPanel5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(212)))), ((int)(((byte)(175)))), ((int)(((byte)(55)))));
             this.roundedPanel5.BorderRadius = 25;
             this.roundedPanel5.BorderSize = 1;
+            this.roundedPanel5.Controls.Add(this.lblStockActual);
+            this.roundedPanel5.Controls.Add(this.nudStock);
             this.roundedPanel5.Controls.Add(this.nudMprecio);
             this.roundedPanel5.Controls.Add(this.label4);
-            this.roundedPanel5.Controls.Add(this.txtMstock);
             this.roundedPanel5.Controls.Add(this.label3);
             this.roundedPanel5.Location = new System.Drawing.Point(26, 478);
             this.roundedPanel5.Margin = new System.Windows.Forms.Padding(4);
@@ -199,6 +224,26 @@
             this.roundedPanel5.PanelColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
             this.roundedPanel5.Size = new System.Drawing.Size(561, 113);
             this.roundedPanel5.TabIndex = 8;
+            // 
+            // lblStockActual
+            // 
+            this.lblStockActual.AutoSize = true;
+            this.lblStockActual.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStockActual.ForeColor = System.Drawing.Color.Yellow;
+            this.lblStockActual.Location = new System.Drawing.Point(137, 18);
+            this.lblStockActual.Name = "lblStockActual";
+            this.lblStockActual.Size = new System.Drawing.Size(59, 23);
+            this.lblStockActual.TabIndex = 13;
+            this.lblStockActual.Text = "label5";
+            // 
+            // nudStock
+            // 
+            this.nudStock.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
+            this.nudStock.ForeColor = System.Drawing.SystemColors.Window;
+            this.nudStock.Location = new System.Drawing.Point(141, 44);
+            this.nudStock.Name = "nudStock";
+            this.nudStock.Size = new System.Drawing.Size(56, 22);
+            this.nudStock.TabIndex = 12;
             // 
             // nudMprecio
             // 
@@ -224,18 +269,6 @@
             this.label4.TabIndex = 10;
             this.label4.Text = "Modificar Stock:";
             // 
-            // txtMstock
-            // 
-            this.txtMstock.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
-            this.txtMstock.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMstock.ForeColor = System.Drawing.SystemColors.Info;
-            this.txtMstock.Location = new System.Drawing.Point(142, 41);
-            this.txtMstock.Margin = new System.Windows.Forms.Padding(4);
-            this.txtMstock.Multiline = true;
-            this.txtMstock.Name = "txtMstock";
-            this.txtMstock.Size = new System.Drawing.Size(99, 27);
-            this.txtMstock.TabIndex = 9;
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -250,6 +283,8 @@
             // 
             // dgvInventario
             // 
+            this.dgvInventario.AllowUserToAddRows = false;
+            this.dgvInventario.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvInventario.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
             this.dgvInventario.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgvInventario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -260,6 +295,7 @@
             this.dgvInventario.RowHeadersWidth = 51;
             this.dgvInventario.Size = new System.Drawing.Size(860, 313);
             this.dgvInventario.TabIndex = 7;
+            this.dgvInventario.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvInventario_CellClick);
             this.dgvInventario.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // txtBuscarProducto
@@ -273,6 +309,7 @@
             this.txtBuscarProducto.Name = "txtBuscarProducto";
             this.txtBuscarProducto.Size = new System.Drawing.Size(472, 27);
             this.txtBuscarProducto.TabIndex = 5;
+            this.txtBuscarProducto.TextChanged += new System.EventHandler(this.txtBuscarProducto_TextChanged);
             // 
             // label2
             // 
@@ -285,27 +322,6 @@
             this.label2.Size = new System.Drawing.Size(119, 20);
             this.label2.TabIndex = 1;
             this.label2.Text = "Buscar Producto:";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe Script", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Gold;
-            this.label1.Location = new System.Drawing.Point(132, 48);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(217, 23);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "Elegancia y Estilo para Ti";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Karolina_Collection_.Properties.Resources.icons8_corona_48;
-            this.pictureBox2.Location = new System.Drawing.Point(25, 13);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(62, 51);
-            this.pictureBox2.TabIndex = 13;
-            this.pictureBox2.TabStop = false;
             // 
             // frmInventario
             // 
@@ -322,15 +338,17 @@
             this.Name = "frmInventario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmInventario";
+            this.Load += new System.EventHandler(this.frmInventario_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.roundedPanel1.ResumeLayout(false);
             this.roundedPanel1.PerformLayout();
             this.roundedPanel8.ResumeLayout(false);
             this.roundedPanel6.ResumeLayout(false);
             this.roundedPanel5.ResumeLayout(false);
             this.roundedPanel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudStock)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudMprecio)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvInventario)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -348,7 +366,6 @@
         private RoundedPanel roundedPanel5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtMstock;
         private System.Windows.Forms.NumericUpDown nudMprecio;
         private BotonPremium btnEliminarProducto;
         private RoundedPanel roundedPanel6;
@@ -356,5 +373,7 @@
         private DividerLine dividerLine1;
         private RoundedPanel roundedPanel8;
         private BotonPremium btnVolver_menu;
+        private System.Windows.Forms.NumericUpDown nudStock;
+        private System.Windows.Forms.Label lblStockActual;
     }
 }
