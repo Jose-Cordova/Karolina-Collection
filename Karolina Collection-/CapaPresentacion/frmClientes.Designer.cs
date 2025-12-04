@@ -30,6 +30,7 @@
         {
             this.Karolins = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.roundedPanel1 = new RoundedPanel();
             this.roundedPanel5 = new RoundedPanel();
             this.btnVolver_menu = new BotonPremium();
@@ -53,7 +54,7 @@
             this.dgvClientes = new System.Windows.Forms.DataGridView();
             this.txtBuscarCliente = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.roundedPanel1.SuspendLayout();
             this.roundedPanel5.SuspendLayout();
             this.roundedPanel4.SuspendLayout();
@@ -62,7 +63,6 @@
             this.roundedPanel8.SuspendLayout();
             this.roundedPanel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // Karolins
@@ -88,6 +88,16 @@
             this.label1.Size = new System.Drawing.Size(217, 23);
             this.label1.TabIndex = 15;
             this.label1.Text = "Elegancia y Estilo para Ti";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Karolina_Collection_.Properties.Resources.icons8_corona_48;
+            this.pictureBox2.Location = new System.Drawing.Point(13, 13);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(73, 63);
+            this.pictureBox2.TabIndex = 13;
+            this.pictureBox2.TabStop = false;
             // 
             // roundedPanel1
             // 
@@ -126,7 +136,7 @@
             // 
             // btnVolver_menu
             // 
-            this.btnVolver_menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.btnVolver_menu.BackColor = System.Drawing.Color.Gray;
             this.btnVolver_menu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnVolver_menu.FlatAppearance.BorderSize = 0;
             this.btnVolver_menu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -139,7 +149,7 @@
             this.btnVolver_menu.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnVolver_menu.Size = new System.Drawing.Size(134, 51);
             this.btnVolver_menu.TabIndex = 24;
-            this.btnVolver_menu.Text = "Volver";
+            this.btnVolver_menu.Text = "VOLVER";
             this.btnVolver_menu.UseVisualStyleBackColor = false;
             this.btnVolver_menu.Click += new System.EventHandler(this.btnVolver_menu_Click);
             // 
@@ -159,7 +169,7 @@
             // 
             // btnLimpiar
             // 
-            this.btnLimpiar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.btnLimpiar.BackColor = System.Drawing.Color.Gray;
             this.btnLimpiar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLimpiar.FlatAppearance.BorderSize = 0;
             this.btnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -172,8 +182,9 @@
             this.btnLimpiar.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnLimpiar.Size = new System.Drawing.Size(134, 51);
             this.btnLimpiar.TabIndex = 23;
-            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.Text = "LIMPIAR";
             this.btnLimpiar.UseVisualStyleBackColor = false;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // roundedPanel3
             // 
@@ -191,7 +202,7 @@
             // 
             // btnEliminar
             // 
-            this.btnEliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.btnEliminar.BackColor = System.Drawing.Color.Red;
             this.btnEliminar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEliminar.FlatAppearance.BorderSize = 0;
             this.btnEliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -204,8 +215,9 @@
             this.btnEliminar.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnEliminar.Size = new System.Drawing.Size(134, 51);
             this.btnEliminar.TabIndex = 23;
-            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.Text = "ELIMINAR";
             this.btnEliminar.UseVisualStyleBackColor = false;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // roundedPanel2
             // 
@@ -223,7 +235,7 @@
             // 
             // btnActualizar
             // 
-            this.btnActualizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.btnActualizar.BackColor = System.Drawing.Color.Gray;
             this.btnActualizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnActualizar.FlatAppearance.BorderSize = 0;
             this.btnActualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -236,8 +248,9 @@
             this.btnActualizar.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnActualizar.Size = new System.Drawing.Size(134, 51);
             this.btnActualizar.TabIndex = 23;
-            this.btnActualizar.Text = "Actualizar";
+            this.btnActualizar.Text = "ACTUALIZAR";
             this.btnActualizar.UseVisualStyleBackColor = false;
+            this.btnActualizar.Click += new System.EventHandler(this.btnActualizar_Click);
             // 
             // roundedPanel8
             // 
@@ -255,7 +268,7 @@
             // 
             // btnRegistrar
             // 
-            this.btnRegistrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(17)))), ((int)(((byte)(23)))));
+            this.btnRegistrar.BackColor = System.Drawing.Color.Lime;
             this.btnRegistrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRegistrar.FlatAppearance.BorderSize = 0;
             this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -268,8 +281,9 @@
             this.btnRegistrar.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.btnRegistrar.Size = new System.Drawing.Size(134, 51);
             this.btnRegistrar.TabIndex = 7;
-            this.btnRegistrar.Text = "Registrar Cliente";
+            this.btnRegistrar.Text = "REGISTRAR CLIENTE";
             this.btnRegistrar.UseVisualStyleBackColor = false;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
             // 
             // roundedPanel6
             // 
@@ -303,6 +317,7 @@
             this.txtCorreo.Name = "txtCorreo";
             this.txtCorreo.Size = new System.Drawing.Size(225, 27);
             this.txtCorreo.TabIndex = 13;
+            this.txtCorreo.TextChanged += new System.EventHandler(this.txtCorreo_TextChanged);
             // 
             // label6
             // 
@@ -325,6 +340,8 @@
             this.mkdTelefono.Name = "mkdTelefono";
             this.mkdTelefono.Size = new System.Drawing.Size(88, 22);
             this.mkdTelefono.TabIndex = 11;
+            this.mkdTelefono.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.mkdTelefono_MaskInputRejected);
+            this.mkdTelefono.TextChanged += new System.EventHandler(this.mkdTelefono_TextChanged);
             // 
             // label5
             // 
@@ -343,9 +360,11 @@
             this.mkdDui.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
             this.mkdDui.ForeColor = System.Drawing.SystemColors.Info;
             this.mkdDui.Location = new System.Drawing.Point(73, 85);
+            this.mkdDui.Mask = "00000000-0";
             this.mkdDui.Name = "mkdDui";
             this.mkdDui.Size = new System.Drawing.Size(94, 22);
             this.mkdDui.TabIndex = 9;
+            this.mkdDui.TextChanged += new System.EventHandler(this.mkdDui_TextChanged);
             // 
             // label4
             // 
@@ -370,6 +389,7 @@
             this.txtNombreCompleto.Name = "txtNombreCompleto";
             this.txtNombreCompleto.Size = new System.Drawing.Size(472, 27);
             this.txtNombreCompleto.TabIndex = 7;
+            this.txtNombreCompleto.TextChanged += new System.EventHandler(this.txtNombreCompleto_TextChanged);
             // 
             // label3
             // 
@@ -385,6 +405,8 @@
             // 
             // dgvClientes
             // 
+            this.dgvClientes.AllowUserToAddRows = false;
+            this.dgvClientes.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvClientes.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(35)))));
             this.dgvClientes.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgvClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -395,6 +417,7 @@
             this.dgvClientes.RowHeadersWidth = 51;
             this.dgvClientes.Size = new System.Drawing.Size(960, 259);
             this.dgvClientes.TabIndex = 8;
+            this.dgvClientes.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvClientes_CellClick);
             // 
             // txtBuscarCliente
             // 
@@ -407,6 +430,7 @@
             this.txtBuscarCliente.Name = "txtBuscarCliente";
             this.txtBuscarCliente.Size = new System.Drawing.Size(472, 27);
             this.txtBuscarCliente.TabIndex = 6;
+            this.txtBuscarCliente.TextChanged += new System.EventHandler(this.txtBuscarCliente_TextChanged);
             // 
             // label2
             // 
@@ -419,16 +443,6 @@
             this.label2.Size = new System.Drawing.Size(105, 20);
             this.label2.TabIndex = 2;
             this.label2.Text = "Buscar Cliente:";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Karolina_Collection_.Properties.Resources.icons8_corona_48;
-            this.pictureBox2.Location = new System.Drawing.Point(13, 13);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(73, 63);
-            this.pictureBox2.TabIndex = 13;
-            this.pictureBox2.TabStop = false;
             // 
             // frmClientes
             // 
@@ -446,6 +460,8 @@
             this.Name = "frmClientes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmClientes";
+            this.Load += new System.EventHandler(this.frmClientes_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.roundedPanel1.ResumeLayout(false);
             this.roundedPanel1.PerformLayout();
             this.roundedPanel5.ResumeLayout(false);
@@ -456,7 +472,6 @@
             this.roundedPanel6.ResumeLayout(false);
             this.roundedPanel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvClientes)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

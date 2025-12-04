@@ -1,4 +1,5 @@
-﻿using Karolina_Collection_.CapaPresentacion;
+﻿using Karolina_Collection_.CapaEntidades;
+using Karolina_Collection_.CapaPresentacion;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -20,7 +21,29 @@ namespace Karolina_Collection_
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            lblUsuario.Text = $"Usuario: {SesionActual.nombre_usuario} - Rol: {SesionActual.rol}";
 
+            /// Control básico por rol
+//Con este codigo deshabilitamos un botón de prueba para el usuario cajero, por ejemplo que no pueda Registrar Cliente(ojo esto es solo prueba)
+            switch (SesionActual.rol)
+            {
+                case "Admin":
+                    // todo habilitado
+                    break;
+                case "Empleado":
+                    btnReportes.Enabled = false;
+                    btnUsuarios.Enabled = false;
+                    btnCierre_caja.Enabled = false;
+
+                    break;
+                default:
+                    btnReportes.Enabled = false;
+                    btnUsuarios.Enabled = false;
+                    btnCierre_caja.Enabled = false;
+                    break;
+
+
+            }
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -119,12 +142,10 @@ namespace Karolina_Collection_
 
         private void btnVolver_Click(object sender, EventArgs e)
         {
-            //Advertencia antes de cerrar el formulario
-            if (MessageBox.Show("¿Está seguro de cerrar el programa?", "Confirmar",
-            MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                this.Close(); //Cerrar el formulario
-            }
+            Close();
+            frmLogin frm = new frmLogin();
+            //muestro el formulario
+            frm.Show();
         }
 
         private void btnCliente_Click(object sender, EventArgs e)
@@ -132,6 +153,37 @@ namespace Karolina_Collection_
             // Abrir el formulario frmProducto al hacer clic en el botón
             frmClientes frm = new frmClientes();
             // Muestra el formulario
+            frm.ShowDialog();
+        }
+
+        private void btnReportes_Click(object sender, EventArgs e)
+        {
+            // Crear una instancia del formulario frmVenta
+            frmReportes frm = new frmReportes();
+            // Muestra el formulario
+            frm.ShowDialog();
+        }
+
+        private void btnCierre_caja_Click(object sender, EventArgs e)
+        {
+            // Crear una instancia del formulario frmVenta
+            frmCierreCaja frm = new frmCierreCaja();
+            // Muestra el formulario
+            frm.ShowDialog();
+        }
+
+        private void btnUsuarios_Click(object sender, EventArgs e)
+        {
+            // Crear una instancia del formulario frmVenta
+            frmUsuario frm = new frmUsuario();
+            // Muestra el formulario
+            frm.ShowDialog();
+        }
+
+        private void cambiarClave_Click(object sender, EventArgs e)
+        {
+            Close();
+            frmActualizarContraseña frm = new frmActualizarContraseña();
             frm.ShowDialog();
         }
     }
