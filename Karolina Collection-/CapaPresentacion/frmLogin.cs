@@ -43,7 +43,8 @@ namespace Karolina_Collection_.CapaPresentacion
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error: " + ex.Message, "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
 
@@ -63,8 +64,10 @@ namespace Karolina_Collection_.CapaPresentacion
         {
 
         }
-        
 
-    
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

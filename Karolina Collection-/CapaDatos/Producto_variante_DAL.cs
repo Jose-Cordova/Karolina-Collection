@@ -146,24 +146,24 @@ namespace Karolina_Collection_.CapaDatos
             {
                 // Usamos la misma consulta base, pero agregamos el filtro WHERE
                 string consulta = @"
-            SELECT 
-                pv.id, 
-                p.nombre_producto AS Producto, 
-                m.nombre_marca AS Marca, 
-                t.nombre_talla AS Talla, 
-                c.nombre_color AS Color, 
-                pv.stock, 
-                pv.precio_venta
-            FROM Producto_variante pv
-            INNER JOIN Producto p ON pv.id_producto = p.id
-            INNER JOIN Marca m ON p.id_marca = m.id
-            INNER JOIN Talla t ON pv.id_talla = t.id
-            INNER JOIN Color c ON pv.id_color = c.id
-            WHERE 
-                p.nombre_producto LIKE @texto OR 
-                m.nombre_marca LIKE @texto OR 
-                t.nombre_talla LIKE @texto OR 
-                c.nombre_color LIKE @texto";
+                    SELECT 
+                        pv.id, 
+                        p.nombre_producto AS Producto, 
+                        m.nombre_marca AS Marca, 
+                        t.nombre_talla AS Talla, 
+                        c.nombre_color AS Color, 
+                        pv.stock, 
+                        pv.precio_venta
+                    FROM Producto_variante pv
+                    INNER JOIN Producto p ON pv.id_producto = p.id
+                    INNER JOIN Marca m ON p.id_marca = m.id
+                    INNER JOIN Talla t ON pv.id_talla = t.id
+                    INNER JOIN Color c ON pv.id_color = c.id
+                    WHERE 
+                        p.nombre_producto LIKE @texto OR 
+                        m.nombre_marca LIKE @texto OR 
+                        t.nombre_talla LIKE @texto OR 
+                        c.nombre_color LIKE @texto";
 
                 using (SqlCommand cmd = new SqlCommand(consulta, conexion))
                 {

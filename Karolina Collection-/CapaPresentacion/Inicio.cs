@@ -23,8 +23,8 @@ namespace Karolina_Collection_
         {
             lblUsuario.Text = $"Usuario: {SesionActual.nombre_usuario} - Rol: {SesionActual.rol}";
 
-            /// Control básico por rol
-//Con este codigo deshabilitamos un botón de prueba para el usuario cajero, por ejemplo que no pueda Registrar Cliente(ojo esto es solo prueba)
+            // Control básico por rol
+            //Con este codigo deshabilitamos un botón de prueba para el usuario cajero, por ejemplo que no pueda Registrar Cliente(ojo esto es solo prueba)
             switch (SesionActual.rol)
             {
                 case "Admin":
@@ -41,8 +41,6 @@ namespace Karolina_Collection_
                     btnUsuarios.Enabled = false;
                     btnCierre_caja.Enabled = false;
                     break;
-
-
             }
         }
 
